@@ -1,0 +1,20 @@
+\begin{thebibliography}{Fow02}
+
+\bibitem[Fow02]{UML:10}
+Martin Fowler.
+\newblock {\em UML distilled. Guida rapida al linguaggio di modellazione
+  standard}.
+\newblock Pearson; 4 edizione, 2002.
+
+\bibitem[KB01]{agile2001}
+Robert C. Martin e Martin~Fowler Kent~Beck.
+\newblock Manifesto for agile software development.
+\newblock 2001.
+
+\bibitem[Mar02]{AG:02}
+Rober~C. Martin.
+\newblock {\em Agile Software Development: Principles, Patterns, and
+  Practices}.
+\newblock Pearson; 1st edition, 2002.
+
+\end{thebibliography}

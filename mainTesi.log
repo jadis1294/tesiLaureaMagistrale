@@ -1,0 +1,1408 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050) (preloaded format=pdflatex 2019.9.23)  25 SEP 2019 09:57
+entering extended mode
+**./mainTesi.tex
+(mainTesi.tex
+LaTeX2e <2018-12-01>
+(TesiDiaUniroma3.cls
+Document Class: TesiDiaUniroma3 2008/02/13 v1.0 Tesi - DIA-Uniroma3
+(/home/Jadis/.miktex/texmfs/install/tex/latex/memoir/memoir.cls
+Document Class: memoir 2018/12/12 v3.7h configurable book, report, article docu
+ment class
+\onelineskip=\skip41
+\lxvchars=\skip42
+\xlvchars=\skip43
+\@memcnta=\count80
+\c@@memmarkcntra=\count81
+(/home/Jadis/.miktex/texmfs/install/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+) (/home/Jadis/.miktex/texmfs/install/tex/latex/ifetex/ifetex.sty
+Package: ifetex 2018/03/31 v1.2a ifetex
+(/home/Jadis/.miktex/texmfs/install/tex/plain/ifetex/ifetex.tex)) (/home/Jadis/
+.miktex/texmfs/install/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+) (/home/Jadis/.miktex/texmfs/install/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+\stockheight=\skip44
+\stockwidth=\skip45
+\trimtop=\skip46
+\trimedge=\skip47
+(/home/Jadis/.miktex/texmfs/install/tex/latex/memoir/mem11.clo
+File: mem11.clo 2008/01/30 v0.3 memoir class 11pt size option
+)
+\binding=\skip48
+\spinemargin=\skip49
+\foremargin=\skip50
+\uppermargin=\skip51
+\lowermargin=\skip52
+\headdrop=\skip53
+\normalrulethickness=\skip54
+\mem@maxheadheight=\skip55
+\mem@maxfootheight=\skip56
+\headwidth=\skip57
+\c@storedpagenumber=\count82
+\memPD=\dimen102
+\m@mabparskip=\skip58
+\thanksmarkwidth=\skip59
+\thanksmarksep=\skip60
+\droptitle=\skip61
+\c@book=\count83
+\c@part=\count84
+\c@chapter=\count85
+\c@section=\count86
+\c@subsection=\count87
+\c@subsubsection=\count88
+\c@paragraph=\count89
+\c@subparagraph=\count90
+\beforechapskip=\skip62
+\midchapskip=\skip63
+\afterchapskip=\skip64
+\chapindent=\skip65
+\bottomsectionskip=\skip66
+\secindent=\skip67
+\beforesecskip=\skip68
+\aftersecskip=\skip69
+\subsecindent=\skip70
+\beforesubsecskip=\skip71
+\aftersubsecskip=\skip72
+\subsubsecindent=\skip73
+\beforesubsubsecskip=\skip74
+\aftersubsubsecskip=\skip75
+\paraindent=\skip76
+\beforeparaskip=\skip77
+\afterparaskip=\skip78
+\subparaindent=\skip79
+\beforesubparaskip=\skip80
+\aftersubparaskip=\skip81
+\pfbreakskip=\skip82
+\c@@ppsavesec=\count91
+\c@@ppsaveapp=\count92
+\ragrparindent=\dimen103
+\everylistparindent=\dimen104
+\parsepi=\skip83
+\topsepi=\skip84
+\itemsepi=\skip85
+\parsepii=\skip86
+\topsepii=\skip87
+\topsepiii=\skip88
+\itemsepii=\skip89
+\itemsepiii=\skip90
+\partopsepii=\skip91
+\partopsepiii=\skip92
+\m@msavetopsep=\skip93
+\m@msavepartopsep=\skip94
+\@enLab=\toks14
+\abstitleskip=\skip95
+\absleftindent=\skip96
+\abs@leftindent=\dimen105
+\absrightindent=\skip97
+\absparindent=\skip98
+\absparsep=\skip99
+\c@vslineno=\count93
+\c@poemline=\count94
+\c@modulo@vs=\count95
+\c@memfvsline=\count96
+\vleftskip=\skip100
+\vrightskip=\skip101
+\stanzaskip=\skip102
+\versewidth=\skip103
+\vgap=\skip104
+\vindent=\skip105
+\vleftmargin=\dimen106
+\c@verse=\count97
+\c@chrsinstr=\count98
+\beforepoemtitleskip=\skip106
+\afterpoemtitleskip=\skip107
+\c@poem=\count99
+\beforePoemTitleskip=\skip108
+\midPoemTitleskip=\skip109
+\afterPoemTitleskip=\skip110
+(/home/Jadis/.miktex/texmfs/install/tex/latex/tools/array.sty
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen107
+\ar@mcellbox=\box27
+\extrarowheight=\dimen108
+\NC@list=\toks15
+\extratabsurround=\skip111
+\backup@length=\skip112
+\ar@cellbox=\box28
+) (/home/Jadis/.miktex/texmfs/install/tex/latex/tools/dcolumn.sty
+Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
+) (/home/Jadis/.miktex/texmfs/install/tex/latex/tools/delarray.sty
+Package: delarray 2014/10/28 v1.01 array delimiter package (DPC)
+) (/home/Jadis/.miktex/texmfs/install/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
+\TX@col@width=\dimen109
+\TX@old@table=\dimen110
+\TX@old@col=\dimen111
+\TX@target=\dimen112
+\TX@delta=\dimen113
+\TX@cols=\count100
+\TX@ftn=\toks16
+)
+\heavyrulewidth=\dimen114
+\lightrulewidth=\dimen115
+\cmidrulewidth=\dimen116
+\belowrulesep=\dimen117
+\belowbottomsep=\dimen118
+\aboverulesep=\dimen119
+\abovetopsep=\dimen120
+\cmidrulesep=\dimen121
+\cmidrulekern=\dimen122
+\defaultaddspace=\dimen123
+\@cmidla=\count101
+\@cmidlb=\count102
+\@aboverulesep=\dimen124
+\@belowrulesep=\dimen125
+\@thisruleclass=\count103
+\@lastruleclass=\count104
+\@thisrulewidth=\dimen126
+\ctableftskip=\skip113
+\ctabrightskip=\skip114
+\abovecolumnspenalty=\count105
+\@linestogo=\count106
+\@cellstogo=\count107
+\@cellsincolumn=\count108
+\crtok=\toks17
+\@mincolumnwidth=\dimen127
+\c@newflo@tctr=\count109
+\mem@margin@floatbox=\box29
+\@contcwidth=\skip115
+\@contindw=\skip116
+\abovecaptionskip=\skip117
+\belowcaptionskip=\skip118
+\subfloattopskip=\skip119
+\subfloatcapskip=\skip120
+\subfloatcaptopadj=\skip121
+\subfloatbottomskip=\skip122
+\subfloatlabelskip=\skip123
+\subfloatcapmargin=\dimen128
+\c@@contsubnum=\count110
+\m@mscap@capbox=\box30
+\m@mscap@fbox=\box31
+\sidecapsep=\dimen129
+\sidecapwidth=\dimen130
+\m@m@tempdima=\dimen131
+\m@mscapraise=\dimen132
+\sidecapraise=\dimen133
+\m@mscapmainwidth=\dimen134
+\m@mscaplkern=\dimen135
+\beforeepigraphskip=\skip124
+\afterepigraphskip=\skip125
+\epigraphwidth=\skip126
+\epigraphrule=\skip127
+LaTeX Info: Redefining \em on input line 7592.
+LaTeX Info: Redefining \emph on input line 7600.
+\tocentryskip=\skip128
+\tocbaseline=\skip129
+\cftparskip=\skip130
+\cftbeforebookskip=\skip131
+\cftbookindent=\dimen136
+\cftbooknumwidth=\dimen137
+\cftbeforepartskip=\skip132
+\cftpartindent=\skip133
+\cftpartnumwidth=\skip134
+\cftbeforechapterskip=\skip135
+\cftchapterindent=\skip136
+\cftchapternumwidth=\skip137
+\cftbeforesectionskip=\skip138
+\cftsectionindent=\skip139
+\cftsectionnumwidth=\skip140
+\cftbeforesubsectionskip=\skip141
+\cftsubsectionindent=\skip142
+\cftsubsectionnumwidth=\skip143
+\cftbeforesubsubsectionskip=\skip144
+\cftsubsubsectionindent=\skip145
+\cftsubsubsectionnumwidth=\skip146
+\cftbeforeparagraphskip=\skip147
+\cftparagraphindent=\skip148
+\cftparagraphnumwidth=\skip149
+\cftbeforesubparagraphskip=\skip150
+\cftsubparagraphindent=\skip151
+\cftsubparagraphnumwidth=\skip152
+\prechapterprecisshift=\dimen138
+\c@maxsecnumdepth=\count111
+\bibindent=\dimen139
+\bibitemsep=\skip153
+\indexcolsep=\skip154
+\indexrule=\skip155
+\indexmarkstyle=\toks18
+\@indexbox=\insert199
+\glossarycolsep=\dimen140
+\glossaryrule=\dimen141
+\sideparvshift=\skip156
+\sideins=\insert198
+\sidebartopsep=\skip157
+\sidebarhsep=\skip158
+\sidebarvsep=\skip159
+\sidebarwidth=\skip160
+\footmarkwidth=\skip161
+\footmarksep=\skip162
+\footparindent=\skip163
+\footinsdim=\skip164
+\footinsv@r=\insert197
+\@mpfootinsv@r=\insert196
+\m@m@k=\count112
+\m@m@h=\dimen142
+\m@mipn@skip=\skip165
+\sidefootins=\insert195
+\sidefootadjust=\skip166
+\sidefootheight=\skip167
+\sidefoothsep=\skip168
+\sidefootvsep=\skip169
+\sidefootwidth=\skip170
+\m@mdownsf=\skip171
+\c@sidefootnote=\count113
+\sidefootmarkwidth=\skip172
+\sidefootmarksep=\skip173
+\sidefootparindent=\skip174
+\c@pagenote=\count114
+\c@pagenoteshadow=\count115
+\mem@pn@lastkern=\skip175
+\every@verbatim=\toks19
+\afterevery@verbatim=\toks20
+\verbatim@line=\toks21
+\tab@position=\count116
+\verbatim@in@stream=\read1
+\verbatimindent=\skip176
+\verbatim@out=\write3
+\bvboxsep=\skip177
+\c@memfbvline=\count117
+\c@bvlinectr=\count118
+\bvnumlength=\skip178
+\fb@frw=\dimen143
+\fb@frh=\dimen144
+\FrameRule=\dimen145
+\FrameSep=\dimen146
+\c@cp@cntr=\count119
+LaTeX Info: Redefining \: on input line 12114.
+LaTeX Info: Redefining \! on input line 12116.
+\c@ism@mctr=\count120
+\c@xsm@mctr=\count121
+\c@csm@mctr=\count122
+\c@ksm@mctr=\count123
+\c@xksm@mctr=\count124
+\c@cksm@mctr=\count125
+\c@msm@mctr=\count126
+\c@xmsm@mctr=\count127
+\c@cmsm@mctr=\count128
+\c@bsm@mctr=\count129
+\c@workm@mctr=\count130
+\c@sheetsequence=\count131
+\c@lastsheet=\count132
+\c@lastpage=\count133
+\c@figure=\count134
+\c@lofdepth=\count135
+\cftbeforefigureskip=\skip179
+\cftfigureindent=\skip180
+\cftfigurenumwidth=\skip181
+\c@table=\count136
+\c@lotdepth=\count137
+\cftbeforetableskip=\skip182
+\cfttableindent=\skip183
+\cfttablenumwidth=\skip184
+Package abstract [2008/07/23] emulated by memoir.
+Package appendix [2008/07/23] emulated by memoir.
+Package booktabs [2016/05/16] emulated by memoir.
+Package ccaption [2008/07/23] emulated by memoir.
+Package changepage [2008/07/23] emulated by memoir.
+Package chngcntr [2008/07/23] emulated by memoir.
+Package chngpage [2008/07/23] emulated by memoir.
+Package crop emulated by memoir.
+Package enumerate [2008/07/23] emulated by memoir.
+Package epigraph [2008/07/23] emulated by memoir.
+Package ifmtarg [2008/07/23] emulated by memoir.
+Package index [2008/07/23] emulated by memoir.
+Package makeidx [2008/07/23] emulated by memoir.
+Package moreverb [2008/07/23] emulated by memoir.
+Package mparhack [2008/07/23] emulated by memoir.
+Package needspace [2008/07/23] emulated by memoir.
+Package newfile [2008/07/23] emulated by memoir.
+Package nextpage [2008/07/23] emulated by memoir.
+Package pagenote [2008/07/23] emulated by memoir.
+Package parskip [2008/07/23] emulated by memoir.
+Package patchcmd [2008/07/23] emulated by memoir.
+Package setspace [2008/07/23] emulated by memoir.
+Package shortvrb [2008/07/23] emulated by memoir.
+Package showidx [2008/07/23] emulated by memoir.
+Package titleref [2008/07/23] emulated by memoir.
+Package titling [2008/07/23] emulated by memoir.
+Package tocbibind [2008/07/23] emulated by memoir.
+Package tocloft [2008/07/23] emulated by memoir.
+Package tocvsec2 [2008/07/23] emulated by memoir.
+Package verbatim [2008/07/23] emulated by memoir.
+Package verse [2008/07/23] emulated by memoir.
+) (/home/Jadis/.miktex/texmfs/install/tex/generic/babel/babel.sty
+Package: babel 2019/07/19 3.33 The Babel package
+(/home/Jadis/.miktex/texmfs/install/tex/generic/babel/switch.def
+File: switch.def 2019/07/19 3.33 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+(/home/Jadis/.miktex/texmfs/install/tex/latex/arabi/bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+) (/home/Jadis/.miktex/texmfs/install/tex/latex/babel-italian/italian.ldf
+Language: italian 2019/01/05 v.1.4.01 Italian support for the babel system
+(/home/Jadis/.miktex/texmfs/install/tex/generic/babel/babel.def
+File: babel.def 2019/07/19 3.33 Babel common definitions
+\babel@savecnt=\count138
+\U@D=\dimen147
+(/home/Jadis/.miktex/texmfs/install/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count139
+)
+
+Package babel Warning: No hyphenation patterns were preloaded for
+(babel)                the language `Italian' into the format.
+(babel)                Please, configure your TeX system to add them and
+(babel)                rebuild the format. Now I will use the patterns
+(babel)                preloaded for \language=0 instead on input line 21.
+
+\l@italian = a dialect from \language0
+\it@lettering=\count140
+\it@doublequoteactive=\count141
+\it@ISOcompliance=\count142
+)) (/home/Jadis/.miktex/texmfs/install/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/09 v2.5g e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count143
+) (/home/Jadis/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+(/home/Jadis/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks22
+) (/home/Jadis/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+(/home/Jadis/.miktex/texmfs/install/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/home/Jadis/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+(/home/Jadis/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen148
+\Gin@req@width=\dimen149
+) (/home/Jadis/.miktex/texmfs/install/tex/latex/base/fontenc.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+(/home/Jadis/.miktex/texmfs/install/tex/latex/base/t1enc.def
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)) (/home/Jadis/.miktex/texmfs/install/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip185
+\f@nch@O@elh=\skip186
+\f@nch@O@erh=\skip187
+\f@nch@O@olh=\skip188
+\f@nch@O@orh=\skip189
+\f@nch@O@elf=\skip190
+\f@nch@O@erf=\skip191
+\f@nch@O@olf=\skip192
+\f@nch@O@orf=\skip193
+)) (/home/Jadis/.miktex/texmfs/install/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks23
+\thm@bodyfont=\toks24
+\thm@headfont=\toks25
+\thm@notefont=\toks26
+\thm@headpunct=\toks27
+\thm@preskip=\skip194
+\thm@postskip=\skip256
+\thm@headsep=\skip257
+\dth@everypar=\toks28
+) (/home/Jadis/.miktex/texmfs/install/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip258
+For additional information on amsmath, use the `?' option.
+(/home/Jadis/.miktex/texmfs/install/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+(/home/Jadis/.miktex/texmfs/install/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks29
+\ex@=\dimen150
+)) (/home/Jadis/.miktex/texmfs/install/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen151
+) (/home/Jadis/.miktex/texmfs/install/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count144
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count145
+\leftroot@=\count146
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count147
+\DOTSCASE@=\count148
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box32
+\strutbox@=\box33
+\big@size=\dimen152
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count149
+\c@MaxMatrixCols=\count150
+\dotsspace@=\muskip10
+\c@parentequation=\count151
+\dspbrk@lvl=\count152
+\tag@help=\toks30
+\row@=\count153
+\column@=\count154
+\maxfields@=\count155
+\andhelp@=\toks31
+\eqnshift@=\dimen153
+\alignsep@=\dimen154
+\tagshift@=\dimen155
+\tagwidth@=\dimen156
+\totwidth@=\dimen157
+\lineht@=\dimen158
+\@envbody=\toks32
+\multlinegap=\skip259
+\multlinetaggap=\skip260
+\mathdisplay@stack=\toks33
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+) (/home/Jadis/.miktex/texmfs/install/tex/latex/pgf/frontendlayer/tikz.sty (/ho
+me/Jadis/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgf.sty (/home/Jadis/.
+miktex/texmfs/install/tex/latex/pgf/utilities/pgfrcs.sty
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks34
+\pgfutil@tempdima=\dimen159
+\pgfutil@tempdimb=\dimen160
+
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box34
+(/home/Jadis/.miktex/texmfs/install/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+)) (/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfrcs.code.te
+x (/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2019/08/03 v3.1.4b (3.1.4b)
+))
+Package: pgf 2019/08/03 v3.1.4b (3.1.4b)
+(/home/Jadis/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgfcore.sty (/home
+/Jadis/.miktex/texmfs/install/tex/latex/pgf/systemlayer/pgfsys.sty
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2019/08/03 v3.1.4b (3.1.4b)
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks35
+\pgfkeys@temptoks=\toks36
+
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks37
+))
+\pgf@x=\dimen161
+\pgf@y=\dimen162
+\pgf@xa=\dimen163
+\pgf@ya=\dimen164
+\pgf@xb=\dimen165
+\pgf@yb=\dimen166
+\pgf@xc=\dimen167
+\pgf@yc=\dimen168
+\pgf@xd=\dimen169
+\pgf@yd=\dimen170
+\w@pgf@writea=\write4
+\r@pgf@reada=\read2
+\c@pgf@counta=\count156
+\c@pgf@countb=\count157
+\c@pgf@countc=\count158
+\c@pgf@countd=\count159
+\t@pgf@toka=\toks38
+\t@pgf@tokb=\toks39
+\t@pgf@tokc=\toks40
+\pgf@sys@id@count=\count160
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2019/08/03 v3.1.4b (3.1.4b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2019/08/03 v3.1.4b (3.1.4b)
+
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2019/08/03 v3.1.4b (3.1.4b)
+)))
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfsyssoftpath@smallbuffer@items=\count161
+\pgfsyssoftpath@bigbuffer@items=\count162
+)
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)) (/home/Jadis/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+(/home/Jadis/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2019/08/03 v3.1.4b (3.1.4b)
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex (/hom
+e/Jadis/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathcalc.code.tex (/home
+/Jadis/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen171
+\pgfmath@count=\count163
+\pgfmath@box=\box35
+\pgfmath@toks=\toks41
+\pgfmath@stack@operand=\toks42
+\pgfmath@stack@operation=\toks43
+)
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex))) (/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/m
+ath/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count164
+)) (/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/math/pgfint.code.tex)
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@picminx=\dimen172
+\pgf@picmaxx=\dimen173
+\pgf@picminy=\dimen174
+\pgf@picmaxy=\dimen175
+\pgf@pathminx=\dimen176
+\pgf@pathmaxx=\dimen177
+\pgf@pathminy=\dimen178
+\pgf@pathmaxy=\dimen179
+\pgf@xx=\dimen180
+\pgf@xy=\dimen181
+\pgf@yx=\dimen182
+\pgf@yy=\dimen183
+\pgf@zx=\dimen184
+\pgf@zy=\dimen185
+)
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@path@lastx=\dimen186
+\pgf@path@lasty=\dimen187
+)
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@shorten@end@additional=\dimen188
+\pgf@shorten@start@additional=\dimen189
+)
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfpic=\box36
+\pgf@hbox=\box37
+\pgf@layerbox@main=\box38
+\pgf@picture@serial@count=\count165
+)
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgflinewidth=\dimen190
+)
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@pt@x=\dimen191
+\pgf@pt@y=\dimen192
+\pgf@pt@temp=\dimen193
+)
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfarrowsep=\dimen194
+)
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@max=\dimen256
+\pgf@sys@shading@range@num=\count166
+\pgf@shadingcount=\count167
+)
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfexternal@startupbox=\box39
+))
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex
+File: pgfcorerdf.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)))
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfnodeparttextbox=\box40
+)
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+(/home/Jadis/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@nodesepstart=\dimen257
+\pgf@nodesepend=\dimen258
+)
+(/home/Jadis/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2019/08/03 v3.1.4b (3.1.4b)
+)) (/home/Jadis/.miktex/texmfs/install/tex/latex/pgf/utilities/pgffor.sty (/hom
+e/Jadis/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfkeys.sty (/home/Jadis
+/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/home/Jad
+is/.miktex/texmfs/install/tex/latex/pgf/math/pgfmath.sty (/home/Jadis/.miktex/t
+exmfs/install/tex/generic/pgf/math/pgfmath.code.tex)) (/home/Jadis/.miktex/texm
+fs/install/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2019/08/03 v3.1.4b (3.1.4b)
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen259
+\pgffor@skip=\dimen260
+\pgffor@stack=\toks44
+\pgffor@toks=\toks45
+))
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2019/08/03 v3.1.4b (3.1.4b)
+
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgf@plot@mark@count=\count168
+\pgfplotmarksize=\dimen261
+)
+\tikz@lastx=\dimen262
+\tikz@lasty=\dimen263
+\tikz@lastxsaved=\dimen264
+\tikz@lastysaved=\dimen265
+\tikz@lastmovetox=\dimen266
+\tikz@lastmovetoy=\dimen267
+\tikzleveldistance=\dimen268
+\tikzsiblingdistance=\dimen269
+\tikz@figbox=\box41
+\tikz@figbox@bg=\box42
+\tikz@tempbox=\box43
+\tikz@tempbox@bg=\box44
+\tikztreelevel=\count169
+\tikznumberofchildren=\count170
+\tikznumberofcurrentchild=\count171
+\tikz@fig@count=\count172
+
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\pgfmatrixcurrentrow=\count173
+\pgfmatrixcurrentcolumn=\count174
+\pgf@matrix@numberofcolumns=\count175
+)
+\tikz@expandcount=\count176
+
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)))
+LaTeX Info: Redefining \bf on input line 22.
+
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryarrows.
+code.tex
+File: pgflibraryarrows.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+\arrowsize=\dimen270
+))
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarychains.code.tex
+File: tikzlibrarychains.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+
+(/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2019/08/03 v3.1.4b (3.1.4b)
+)) (mainTesi.aux)
+\openout1 = `mainTesi.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Info: Redefining \it@ocap on input line 94.
+LaTeX Info: Redefining \it@ccap on input line 94.
+(/home/Jadis/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count177
+\scratchdimen=\dimen271
+\scratchbox=\box45
+\nofMPsegments=\count178
+\nofMParguments=\count179
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count180
+\MPscratchDim=\dimen272
+\MPnumerator=\count181
+\makeMPintoPDFobject=\count182
+\everyMPtoPDFconversion=\toks47
+) (/home/Jadis/.miktex/texmfs/install/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+(/home/Jadis/.miktex/texmfs/install/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+) (/home/Jadis/.miktex/texmfs/install/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+(/home/Jadis/.miktex/texmfs/install/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+(/home/Jadis/.miktex/texmfs/install/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+))) (/home/Jadis/.miktex/texmfs/install/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+(/home/Jadis/.miktex/texmfs/install/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+(/home/Jadis/.miktex/texmfs/install/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+))) (/home/Jadis/.miktex/texmfs/install/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+) ABD: EveryShipout initializing macros
+<figure/uniroma3-logo.pdf, id=4, 196.735pt x 109.40875pt>
+File: figure/uniroma3-logo.pdf Graphic file (type pdf)
+<use figure/uniroma3-logo.pdf>
+Package pdftex.def Info: figure/uniroma3-logo.pdf  used on input line 97.
+(pdftex.def)             Requested size: 165.02347pt x 91.77249pt.
+[1
+
+
+{/home/Jadis/.miktex/texmfs/data/pdftex/config/pdftex.map} <./figure/uniroma3-l
+ogo.pdf>] [2] (mainTesi.toc
+Overfull \hbox (0.15294pt too wide) detected at line 6
+ \T1/cmr/bx/n/10.95 viii
+ []
+
+[3] [4]) [5] (mainTesi.lof) [6
+
+] (mainTesi.lot) [7] (introduzione.tex
+Overfull \hbox (22.01646pt too wide) in paragraph at lines 4--5
+\T1/cmr/m/n/10.95 ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur
+. Duis aute irure reprehenderit
+ []
+
+
+Overfull \hbox (6.94125pt too wide) in paragraph at lines 4--5
+\T1/cmr/m/n/10.95 cupiditat non proident, sunt in culpa qui officia deserunt mo
+llit anim id est laborum.Lorem
+ []
+
+
+Overfull \hbox (6.94125pt too wide) in paragraph at lines 4--5
+\T1/cmr/m/n/10.95 cupiditat non proident, sunt in culpa qui officia deserunt mo
+llit anim id est laborum.Lorem
+ []
+
+[8
+
+]
+Overfull \hbox (5.7038pt too wide) in paragraph at lines 10--11
+\T1/cmr/m/n/10.95 graphs e con supporto per operazioni di semplificazione e tra
+sformazione e "flattizzazione"
+ []
+
+)
+Overfull \hbox (0.43338pt too wide) in paragraph at lines 12--103
+\T1/cmr/m/n/10.95 dei grafi, la programmazione web e Javascript. Tutti i concet
+ti enunciati nella descrizione
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--103
+
+ []
+
+
+Overfull \hbox (4.72237pt too wide) in paragraph at lines 12--103
+\T1/cmr/bx/n/10.95 5. Esempi di utilizzo e sviluppi futuri: \T1/cmr/m/n/10.95 c
+onsiderazioni sulle possibili implementazioni
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--103
+
+ []
+
+[9] [10] (Capitolo1.tex
+Overfull \hbox (1.32564pt too wide) in paragraph at lines 3--4
+\T1/cmr/m/n/12 note e delucidate prima di poter proseguire con la definizione d
+i grafo clusterizzato.
+ []
+
+<figure/grafoGenerico.png, id=57, 656.4525pt x 347.2975pt>
+File: figure/grafoGenerico.png Graphic file (type png)
+<use figure/grafoGenerico.png>
+Package pdftex.def Info: figure/grafoGenerico.png  used on input line 9.
+(pdftex.def)             Requested size: 288.79422pt x 152.79016pt.
+<figure/kuratowski.png, id=59, 672.5125pt x 342.27875pt>
+File: figure/kuratowski.png Graphic file (type png)
+<use figure/kuratowski.png>
+Package pdftex.def Info: figure/kuratowski.png  used on input line 22.
+(pdftex.def)             Requested size: 371.30595pt x 188.97984pt.
+[1
+
+
+] [2 <./figure/grafoGenerico.png>]
+<figure/alberoGenerico.png, id=75, 640.3925pt x 335.2525pt>
+File: figure/alberoGenerico.png Graphic file (type png)
+<use figure/alberoGenerico.png>
+Package pdftex.def Info: figure/alberoGenerico.png  used on input line 40.
+(pdftex.def)             Requested size: 330.05322pt x 172.7874pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--49
+
+ []
+
+[3 <./figure/kuratowski.png>]
+<figure/flatTree.png, id=81, 642.4pt x 323.2075pt>
+File: figure/flatTree.png Graphic file (type png)
+<use figure/flatTree.png>
+Package pdftex.def Info: figure/flatTree.png  used on input line 55.
+(pdftex.def)             Requested size: 330.05322pt x 166.06165pt.
+[4 <./figure/alberoGenerico.png>]
+<figure/cgraphGenerico.png, id=86, 601.24625pt x 384.43625pt>
+File: figure/cgraphGenerico.png Graphic file (type png)
+<use figure/cgraphGenerico.png>
+Package pdftex.def Info: figure/cgraphGenerico.png  used on input line 68.
+(pdftex.def)             Requested size: 371.30595pt x 237.42117pt.
+[5 <./figure/flatTree.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 78--81
+
+ []
+
+[6 <./figure/cgraphGenerico.png>] [7]
+Overfull \hbox (12.1242pt too wide) in paragraph at lines 90--92
+\T1/cmr/m/n/12 Prima di poter analizzare i progressi svolti nell'ambito del dis
+egno di grafi clusterizzti
+ []
+
+[8]) [9] (Capitolo2.tex
+Overfull \hbox (3.93591pt too wide) in paragraph at lines 5--8
+\T1/cmr/m/n/12 dei grafi, con basi di teoria della complessità, e la visualizza
+zione delle informazioni.
+ []
+
+[10
+
+]
+<figure/nodeLink.png, id=109, 616.3025pt x 192.72pt>
+File: figure/nodeLink.png Graphic file (type png)
+<use figure/nodeLink.png>
+Package pdftex.def Info: figure/nodeLink.png  used on input line 14.
+(pdftex.def)             Requested size: 330.05322pt x 103.2115pt.
+
+Overfull \hbox (12.50282pt too wide) in paragraph at lines 10--18
+\T1/cmr/m/n/12 strategie: node-link e space-filling. Nella strategia node-link 
+i nodi solo rappresentati
+ []
+
+<figure/spaceFilling.png, id=110, 659.46375pt x 173.64874pt>
+File: figure/spaceFilling.png Graphic file (type png)
+<use figure/spaceFilling.png>
+Package pdftex.def Info: figure/spaceFilling.png  used on input line 22.
+(pdftex.def)             Requested size: 371.30595pt x 97.7752pt.
+
+Overfull \hbox (23.31898pt too wide) in paragraph at lines 19--28
+\T1/cmr/m/n/12 forme geometriche inserite all'interno del padre anche se anche 
+questa rappresentazione
+ []
+
+[11 <./figure/nodeLink.png>]
+<figure/spring.png, id=115, 632.3625pt x 456.70625pt>
+File: figure/spring.png Graphic file (type png)
+<use figure/spring.png>
+Package pdftex.def Info: figure/spring.png  used on input line 33.
+(pdftex.def)             Requested size: 330.05322pt x 238.37364pt.
+
+Overfull \hbox (3.0169pt too wide) in paragraph at lines 30--37
+\T1/cmr/bx/n/12 modello \T1/cmr/m/n/12 che descrive le forze in gioco e l'\T1/c
+mr/bx/n/12 algoritmo \T1/cmr/m/n/12 ovvero la tecnica che permette
+ []
+
+[12 <./figure/spaceFilling.png>] [13 <./figure/spring.png>]
+Overfull \hbox (23.87149pt too wide) in paragraph at lines 41--43
+\T1/cmr/m/n/12 JavaScript è un linguaggio di scripting orientato agli oggetti e
+ agli eventi, comunemente
+ []
+
+<figure/dom.png, id=124, 688.5725pt x 364.36125pt>
+File: figure/dom.png Graphic file (type png)
+<use figure/dom.png>
+Package pdftex.def Info: figure/dom.png  used on input line 54.
+(pdftex.def)             Requested size: 330.05322pt x 174.64677pt.
+
+Overfull \hbox (11.38702pt too wide) in paragraph at lines 45--58
+\T1/cmr/m/n/12 elementi SVG, aggiungergli uno stile grafico, oppure transizioni
+, effetti di movimento
+ []
+
+
+Overfull \hbox (20.4996pt too wide) in paragraph at lines 45--58
+\T1/cmr/m/n/12 ricche rappresentazioni grafiche di numeri, testi, mappe e diagr
+ammi. Per completezza
+ []
+
+
+Overfull \hbox (0.21611pt too wide) in paragraph at lines 45--58
+\T1/cmr/m/n/12 in grado di visualizzare oggetti di grafica vettoriale e, pertan
+to, di gestire immagini
+ []
+
+
+Overfull \hbox (10.65804pt too wide) in paragraph at lines 45--58
+\T1/cmr/m/n/12 un'interfaccia multipiattaforma e indipendente dalla lingua che 
+tratta un documento
+ []
+
+[14] [15] [16 <./figure/dom.png>]) [17] (Capitolo3.tex
+Overfull \hbox (11.63684pt too wide) in paragraph at lines 1--2
+\T1/cmr/m/n/12 problemi risolti nel lavoro svolto,prima di passare alla descriz
+ione della progettazione
+ []
+
+
+Overfull \hbox (19.15724pt too wide) in paragraph at lines 4--5
+\T1/cmr/m/n/12 Gli obiettivi formativi inizialmente pensati per essere realizza
+ti durante lo svolgimento
+ []
+
+[18
+
+]
+
+LaTeX Warning: Reference `fig:primaiterazione' on page 19 undefined on input li
+ne 8.
+
+
+Overfull \hbox (1.45328pt too wide) in paragraph at lines 13--16
+[]\T1/cmr/m/n/12 Per quanto riguarda la velocità computazionale la soluzione ot
+tima o comunque
+ []
+
+
+Overfull \hbox (14.70421pt too wide) in paragraph at lines 13--16
+\T1/cmr/m/n/12 per quanto riguarda la flessibilità del progetto ma anche alla v
+elocità computazionale,
+ []
+
+[19]
+
+LaTeX Warning: Reference `fig:secondaiterazione' on page 20 undefined on input 
+line 17.
+
+
+Overfull \hbox (13.32626pt too wide) in paragraph at lines 17--18
+\T1/cmr/m/n/12 principi espressi dal libro "UML distilled. Guida rapida al ling
+uaggio di modellazione
+ []
+
+[20]
+Overfull \hbox (1.19495pt too wide) in paragraph at lines 20--21
+\T1/cmr/m/n/12 ovvero di "linguaggio di modellizzazione unificato" è un linguag
+gio di modellazione
+ []
+
+
+Overfull \hbox (1.91302pt too wide) in paragraph at lines 20--21
+\T1/cmr/m/n/12 ad oggetti utilizzato anche dalla gran parte della letteratura d
+el settore informatico
+ []
+
+
+Overfull \hbox (10.07068pt too wide) in paragraph at lines 22--23
+\T1/cmr/m/n/12 quella branca dell'informatica definita ingegneria del software 
+che divide la creazione
+ []
+
+
+Overfull \hbox (22.9272pt too wide) in paragraph at lines 22--23
+\T1/cmr/m/n/12 del progetto in tre parti distinte ma sviluppate quasi in parall
+elo: analisi, progettazione
+ []
+
+
+Overfull \hbox (13.74692pt too wide) in paragraph at lines 22--23
+\T1/cmr/m/n/12 software. Sulla base della specifica dei requisiti prodotta dall
+'analisi, la progettazione
+ []
+
+
+Overfull \hbox (8.56958pt too wide) in paragraph at lines 25--28
+\T1/cmr/m/n/12 proponendo un approccio meno strutturato e focalizzato sull'obie
+ttivo di consegnare
+ []
+
+
+Overfull \hbox (15.70532pt too wide) in paragraph at lines 25--28
+\T1/cmr/m/n/12 Questi principi sono definiti nel "Manifesto per lo sviluppo agi
+le del software" [[]],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--28
+
+ []
+
+[21]) [22] (Capitolo4.tex
+Overfull \hbox (41.91423pt too wide) in paragraph at lines 2--3
+\T1/cmr/m/n/12 In questo capitolo saraà illustrato il risultato del lavoro di p
+rogettazione e implementazione
+ []
+
+
+Overfull \hbox (0.79051pt too wide) in paragraph at lines 2--3
+\T1/cmr/m/n/12 partendo dalla costruzione del reticolo discreto (Lattice). Si p
+rocederà a descrivere
+ []
+
+
+Overfull \hbox (2.33505pt too wide) in paragraph at lines 5--8
+\T1/cmr/m/n/12 in cui \T1/cmr/m/it/12 dim \T1/cmr/m/n/12 specifica la dimension
+e, \T1/cmr/m/it/12 dis \T1/cmr/m/n/12 il numero delle velocità e \T1/cmr/m/it/1
+2 const (*v)[dis][dim]
+ []
+
+[23
+
+]
+Overfull \hbox (15.6396pt too wide) in paragraph at lines 30--31
+\T1/cmr/m/n/12 distribuzione mostrata sopra. Si ricorda inoltre che nel linguag
+gio di programmazione
+ []
+
+[24] [25]
+Overfull \hbox (21.72198pt too wide) in paragraph at lines 57--58
+\T1/cmr/m/n/12 strumenti e le metodologie applicate, si è optato per l'utilizzo
+ degli \T1/cmr/m/it/12 STD::VECTOR<>
+ []
+
+
+LaTeX Warning: Reference `fig:Storage2' on page 26 undefined on input line 64.
+
+[26]
+
+LaTeX Warning: Reference `fig:axes' on page 27 undefined on input line 74.
+
+
+LaTeX Warning: Reference `fig:esempioInit' on page 27 undefined on input line 8
+0.
+
+
+Overfull \hbox (19.36963pt too wide) in paragraph at lines 77--81
+[]\T1/cmr/m/n/12 Questa inizializzazione del vettore boundaries_points è operat
+a mediante l'utilizzo
+ []
+
+[27]
+
+LaTeX Warning: Reference `fig:Streaming' on page 28 undefined on input line 87.
+
+
+
+LaTeX Warning: Reference `fig:bordoDefault' on page 28 undefined on input line 
+93.
+
+
+LaTeX Warning: Reference `fig:bordosolido' on page 28 undefined on input line 9
+3.
+
+
+Overfull \hbox (8.55537pt too wide) in paragraph at lines 93--97
+\T1/cmr/m/n/12 bounce-back. È riportato un esempio di condizioni al contorno te
+state in precedenza
+ []
+
+[28]
+Overfull \hbox (8.76543pt too wide) in paragraph at lines 101--103
+\T1/cmr/m/n/12 con un'altra iterazione e quindi con una nuova alternanza delle 
+due fasi, conservando
+ []
+
+[29]
+
+LaTeX Warning: Reference `fig:iterazione' on page 30 undefined on input line 10
+4.
+
+
+LaTeX Warning: Reference `fig:filestl' on page 30 undefined on input line 113.
+
+[30]
+
+LaTeX Warning: Reference `fig:bitvet' on page 31 undefined on input line 119.
+
+[31]) [32] [33] (Capitolo5.tex
+
+LaTeX Warning: Reference `fig:quadtreeAlbero' on page 34 undefined on input lin
+e 7.
+
+
+LaTeX Warning: Reference `fig:quadtreeAlbero' on page 34 undefined on input lin
+e 7.
+
+
+LaTeX Warning: Reference `fig:quadtreeSpazio' on page 34 undefined on input lin
+e 7.
+
+
+Overfull \hbox (31.20166pt too wide) in paragraph at lines 7--9
+\T1/cmr/m/n/12 in cui ogni nodo interno ha esattamente quattro figli, come most
+rato in Figura [].Questa
+ []
+
+[34
+
+]
+Overfull \hbox (6.75978pt too wide) in paragraph at lines 11--14
+\T1/cmr/m/n/12 asintotico delle funzioni. Il suo obiettivo è quello di caratter
+izzare il comportamento
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--14
+
+ []
+
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 14--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+LaTeX Warning: Reference `fig:quadtreeAlbero' on page 36 undefined on input lin
+e 19.
+
+
+LaTeX Warning: Reference `fig:aumentoPunti' on page 36 undefined on input line 
+25.
+
+[36]
+
+LaTeX Warning: Reference `fig:infittimento' on page 37 undefined on input line 
+30.
+
+
+Overfull \hbox (1.37776pt too wide) in paragraph at lines 30--31
+\T1/cmr/m/n/12 inaccurata. La soluzione ottima si ha nell'introduzione di una g
+riglia a infittimento
+ []
+
+
+LaTeX Warning: Reference `fig:esempiobmp' on page 37 undefined on input line 38
+.
+
+
+Overfull \hbox (5.82864pt too wide) in paragraph at lines 38--39
+\T1/cmr/m/n/12 immabini bitmap memorizzate in memoria che identificano le situa
+zioni antecedenti
+ []
+
+[37]) [38] (conclusioni.tex
+Overfull \hbox (17.89784pt too wide) in paragraph at lines 2--3
+\T1/cmr/m/n/12 di Navier-Stokes viste nel capitolo 1, è facilmente realizzabile
+ a livello di computazione
+ []
+
+
+Overfull \hbox (2.26675pt too wide) in paragraph at lines 4--5
+[]\T1/cmr/m/n/12 All'inizio dell'attività di tirocinio una volta preso nota l'i
+mportanza nell'ambito
+ []
+
+
+Overfull \hbox (5.1718pt too wide) in paragraph at lines 4--5
+\T1/cmr/m/n/12 della computer grafica e delle simulazioni dell'utilizzo del met
+odo Lattice Bolzmann
+ []
+
+
+Overfull \hbox (26.05562pt too wide) in paragraph at lines 6--7
+\T1/cmr/m/n/12 Il primo, la realizzazione di un software veloce è stato raggiun
+to mediante l'introduzione
+ []
+
+
+Overfull \hbox (6.80759pt too wide) in paragraph at lines 6--7
+\T1/cmr/m/n/12 di due paradigmi di programmazione che puntano proprio alla velo
+cità di esecuzione
+ []
+
+
+Overfull \hbox (2.43512pt too wide) in paragraph at lines 6--7
+\T1/cmr/m/n/12 fa uso di più thread di esecuzione per suddividere un problema i
+n più sottoproblemi
+ []
+
+
+Overfull \hbox (23.4493pt too wide) in paragraph at lines 6--7
+\T1/cmr/m/n/12 programmazione generica, che mediante l'utilizzo delle classi e 
+dei metodi templetizzati
+ []
+
+[39
+
+
+]) [40] (mainTesi.bbl
+bibitemlist
+) [41
+
+]
+\tf@toc=\write5
+\openout5 = `mainTesi.toc'.
+
+\tf@lof=\write6
+\openout6 = `mainTesi.lof'.
+
+\tf@lot=\write7
+\openout7 = `mainTesi.lot'.
+
+(mainTesi.aux)
+
+LaTeX Warning: There were undefined references.
+
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 1 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 17917 strings out of 494857
+ 332450 string characters out of 3178232
+ 409948 words of memory out of 3000000
+ 21214 multiletter control sequences out of 15000+200000
+ 22147 words of font info for 49 fonts, out of 3000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 60i,12n,60p,1441b,880s stack positions out of 5000i,500n,10000p,200000b,50000s
+ </home/Jadis/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/d
+pi600/ecti1200.pk> </home/Jadis/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec
+/dpi600/ecbi1200.pk> </home/Jadis/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/
+ec/dpi600/ecbx1200.pk> </home/Jadis/.miktex/texmfs/data/fonts/pk/ljfour/jknappe
+n/ec/dpi600/ecbx2074.pk> </home/Jadis/.miktex/texmfs/data/fonts/pk/ljfour/jknap
+pen/ec/dpi600/ecbx1440.pk> </home/Jadis/.miktex/texmfs/data/fonts/pk/ljfour/jkn
+appen/ec/dpi600/ecbx2488.pk> </home/Jadis/.miktex/texmfs/data/fonts/pk/ljfour/j
+knappen/ec/dpi600/ecti1095.pk> </home/Jadis/.miktex/texmfs/data/fonts/pk/ljfour
+/jknappen/ec/dpi600/ecrm1200.pk> </home/Jadis/.miktex/texmfs/data/fonts/pk/ljfo
+ur/jknappen/ec/dpi600/ecbx1095.pk> </home/Jadis/.miktex/texmfs/data/fonts/pk/lj
+four/jknappen/ec/dpi600/ecrm1095.pk> </home/Jadis/.miktex/texmfs/data/fonts/pk/
+ljfour/jknappen/ec/dpi600/ecrm2488.pk> </home/Jadis/.miktex/texmfs/data/fonts/p
+k/ljfour/jknappen/ec/dpi600/ecrm1728.pk> </home/Jadis/.miktex/texmfs/data/fonts
+/pk/ljfour/jknappen/ec/dpi600/ecrm1440.pk></home/Jadis/.miktex/texmfs/install/f
+onts/type1/public/amsfonts/cm/cmmi12.pfb></home/Jadis/.miktex/texmfs/install/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb></home/Jadis/.miktex/texmfs/install/font
+s/type1/public/amsfonts/cm/cmr12.pfb></home/Jadis/.miktex/texmfs/install/fonts/
+type1/public/amsfonts/cm/cmr8.pfb></home/Jadis/.miktex/texmfs/install/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb>
+Output written on mainTesi.pdf (51 pages, 614764 bytes).
+PDF statistics:
+ 811 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+
