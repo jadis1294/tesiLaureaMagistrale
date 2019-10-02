@@ -21,18 +21,28 @@
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Operazioni di panning e zooming su un piano $<x,y>$}}{34}% 
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Esempio di encoding da un diagramma a torta ad uno a barre}}{35}% 
 \addvspace {10pt}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Oggetto clusteredGraph}}{38}% 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Oggetto nodo del underlying graph}}{39}% 
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Oggetto arco dell'undelying graph}}{40}% 
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Oggetto cluster dell'inclusion Tree}}{41}% 
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Log-in nel sistema}}{42}% 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Graph View}}{43}% 
+\contentsline {figure}{\numberline {5.7}{\ignorespaces tree View}}{46}% 
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Graph View}}{46}% 
+\contentsline {figure}{\numberline {5.9}{\ignorespaces visualizzazione dei soli cluster}}{47}% 
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Visualizzazione dei soli archi}}{47}% 
 \addvspace {10pt}
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Schema dell'impiego della funzione di disegno dei dati }}{39}% 
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Esempio delle forze attrattive e repulsive utilizzate in fase di disegno }}{41}% 
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Esempio di file json per l'import di un grafo clusterizzato }}{42}% 
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Messaggio di errore per il tentativo di creazione di un arco senza due nodi}}{44}% 
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Esempio di planarit\IeC {\`a} nella rappresentazione di un grafo clusterizzato}}{45}% 
-\contentsline {figure}{\numberline {6.6}{\ignorespaces algoritmo di cancellazione di un oggetto}}{47}% 
-\contentsline {figure}{\numberline {6.7}{\ignorespaces operazione di cambiamento del raggio dei cluster da parte dell'utente}}{48}% 
-\contentsline {figure}{\numberline {6.8}{\ignorespaces impiego di Palette diverse da quella di default da parte dell'utente}}{49}% 
-\contentsline {figure}{\numberline {6.9}{\ignorespaces aggiunta di commenti da parte dell'utente}}{50}% 
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Messaggio di aiuto al primo accesso dell'utente alla navigate-view}}{52}% 
-\contentsline {figure}{\numberline {6.11}{\ignorespaces zooming di un grafo nella navigate-view}}{53}% 
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Schema dell'impiego della funzione di disegno dei dati }}{49}% 
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Esempio delle forze attrattive e repulsive utilizzate in fase di disegno }}{51}% 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Esempio di file json per l'import di un grafo clusterizzato }}{52}% 
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Messaggio di errore per il tentativo di creazione di un arco senza due nodi}}{54}% 
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Esempio di planarit\IeC {\`a} nella rappresentazione di un grafo clusterizzato}}{55}% 
+\contentsline {figure}{\numberline {6.6}{\ignorespaces algoritmo di cancellazione di un oggetto}}{57}% 
+\contentsline {figure}{\numberline {6.7}{\ignorespaces operazione di cambiamento del raggio dei cluster da parte dell'utente}}{58}% 
+\contentsline {figure}{\numberline {6.8}{\ignorespaces impiego di Palette diverse da quella di default da parte dell'utente}}{59}% 
+\contentsline {figure}{\numberline {6.9}{\ignorespaces aggiunta di commenti da parte dell'utente}}{60}% 
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Messaggio di aiuto al primo accesso dell'utente alla navigate-view}}{62}% 
+\contentsline {figure}{\numberline {6.11}{\ignorespaces zooming di un grafo nella navigate-view}}{63}% 
 \addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}

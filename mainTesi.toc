@@ -31,26 +31,27 @@
 \contentsline {section}{\numberline {4.3}modalit\IeC {\`a} di interazione scelte e motivazioni}{31}% 
 \contentsline {chapter}{\chapternumberline {5}Interfacce e struttura dati}{37}% 
 \contentsline {section}{\numberline {5.1}Struttura dati}{37}% 
-\contentsline {section}{\numberline {5.2}Log-in ed inizializzazione}{37}% 
-\contentsline {section}{\numberline {5.3}Graph-view}{37}% 
-\contentsline {section}{\numberline {5.4}Tree-view}{37}% 
-\contentsline {section}{\numberline {5.5}Console-view}{37}% 
-\contentsline {chapter}{\chapternumberline {6}Funzioni utente}{38}% 
-\contentsline {section}{\numberline {6.1}disegno dei dati}{39}% 
-\contentsline {section}{\numberline {6.2}creazione}{40}% 
-\contentsline {subsection}{\numberline {6.2.1}import/export}{40}% 
-\contentsline {subsection}{\numberline {6.2.2}template}{43}% 
-\contentsline {subsection}{\numberline {6.2.3}elemento del grafo}{43}% 
-\contentsline {section}{\numberline {6.3}modifica}{46}% 
-\contentsline {subsection}{\numberline {6.3.1}Spostamento e cancellazione}{46}% 
-\contentsline {subsection}{\numberline {6.3.2}raggio e colore degli oggetti}{47}% 
-\contentsline {subsection}{\numberline {6.3.3}aggiungere descrizione agli oggetti}{49}% 
-\contentsline {section}{\numberline {6.4}navigazione}{51}% 
-\contentsline {chapter}{\chapternumberline {7}Riduzione Flat del grafo clusterizzato}{54}% 
-\contentsline {section}{\numberline {7.1}metodo}{54}% 
-\contentsline {section}{\numberline {7.2}algoritmo}{54}% 
-\contentsline {chapter}{\chapternumberline {8}Esempi reali di utilizzo}{55}% 
-\contentsline {section}{\numberline {8.1}Quadtree e Octree}{55}% 
-\contentsline {subsection}{\numberline {8.1.1}Definizione delle strutture}{55}% 
-\contentsline {chapter}{Conclusioni e sviluppi futuri}{56}% 
-\contentsline {chapter}{Bibliografia}{58}% 
+\contentsline {section}{\numberline {5.2}Log-in ed inizializzazione}{41}% 
+\contentsline {section}{\numberline {5.3}Graph-view}{43}% 
+\contentsline {section}{\numberline {5.4}Tree-view}{44}% 
+\contentsline {section}{\numberline {5.5}Console-view}{46}% 
+\contentsline {section}{\numberline {5.6}Filtraggio degli oggetti}{46}% 
+\contentsline {chapter}{\chapternumberline {6}Funzioni utente}{48}% 
+\contentsline {section}{\numberline {6.1}disegno dei dati}{49}% 
+\contentsline {section}{\numberline {6.2}creazione}{50}% 
+\contentsline {subsection}{\numberline {6.2.1}import/export}{50}% 
+\contentsline {subsection}{\numberline {6.2.2}template}{53}% 
+\contentsline {subsection}{\numberline {6.2.3}elemento del grafo}{53}% 
+\contentsline {section}{\numberline {6.3}modifica}{56}% 
+\contentsline {subsection}{\numberline {6.3.1}Spostamento e cancellazione}{56}% 
+\contentsline {subsection}{\numberline {6.3.2}raggio e colore degli oggetti}{57}% 
+\contentsline {subsection}{\numberline {6.3.3}aggiungere descrizione agli oggetti}{59}% 
+\contentsline {section}{\numberline {6.4}navigazione}{61}% 
+\contentsline {chapter}{\chapternumberline {7}Riduzione Flat del grafo clusterizzato}{64}% 
+\contentsline {section}{\numberline {7.1}metodo}{64}% 
+\contentsline {section}{\numberline {7.2}algoritmo}{64}% 
+\contentsline {chapter}{\chapternumberline {8}Esempi reali di utilizzo}{65}% 
+\contentsline {section}{\numberline {8.1}Quadtree e Octree}{65}% 
+\contentsline {subsection}{\numberline {8.1.1}Definizione delle strutture}{65}% 
+\contentsline {chapter}{Conclusioni e sviluppi futuri}{66}% 
+\contentsline {chapter}{Bibliografia}{68}% 

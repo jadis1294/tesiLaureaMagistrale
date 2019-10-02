@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050) (preloaded format=pdflatex 2019.9.23)  2 OCT 2019 21:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050) (preloaded format=pdflatex 2019.9.23)  3 OCT 2019 00:22
 entering extended mode
 **./mainTesi.tex
 (mainTesi.tex
@@ -817,41 +817,7 @@ File: tikzlibrarychains.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 (/home/Jadis/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-)) (mainTesi.aux
-
-LaTeX Warning: Label `fig:redraw' multiply defined.
-
-
-LaTeX Warning: Label `fig:springExample' multiply defined.
-
-
-LaTeX Warning: Label `fig:json' multiply defined.
-
-
-LaTeX Warning: Label `fig:erroreArco' multiply defined.
-
-
-LaTeX Warning: Label `fig:archi' multiply defined.
-
-
-LaTeX Warning: Label `fig:delete' multiply defined.
-
-
-LaTeX Warning: Label `fig:changeRad' multiply defined.
-
-
-LaTeX Warning: Label `fig:changePalette' multiply defined.
-
-
-LaTeX Warning: Label `fig:addText' multiply defined.
-
-
-LaTeX Warning: Label `fig:navMessage' multiply defined.
-
-
-LaTeX Warning: Label `fig:zoomGraph' multiply defined.
-
-)
+)) (mainTesi.aux)
 \openout1 = `mainTesi.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
@@ -868,7 +834,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
 LaTeX Font Info:    ... okay on input line 94.
 LaTeX Info: Redefining \it@ocap on input line 94.
 LaTeX Info: Redefining \it@ccap on input line 94.
- (/home/Jadis/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+
+(/home/Jadis/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count177
 \scratchdimen=\dimen271
@@ -1342,21 +1309,21 @@ Overfull \hbox (0.83405pt too wide) in paragraph at lines 42--45
 <figure/zooming.png, id=191, 122.859pt x 112.5003pt>
 File: figure/zooming.png Graphic file (type png)
 <use figure/zooming.png>
-Package pdftex.def Info: figure/zooming.png  used on input line 50.
-(pdftex.def)             Requested size: 495.0767pt x 453.38866pt.
+Package pdftex.def Info: figure/zooming.png  used on input line 49.
+(pdftex.def)             Requested size: 412.56497pt x 377.82501pt.
 <figure/panning.png, id=192, 677.53125pt x 473.77pt>
 File: figure/panning.png Graphic file (type png)
 <use figure/panning.png>
-Package pdftex.def Info: figure/panning.png  used on input line 62.
-(pdftex.def)             Requested size: 495.0767pt x 346.19623pt.
+Package pdftex.def Info: figure/panning.png  used on input line 60.
+(pdftex.def)             Requested size: 412.56497pt x 288.50047pt.
 
-Overfull \hbox (11.18286pt too wide) in paragraph at lines 46--66
+Overfull \hbox (11.18286pt too wide) in paragraph at lines 46--64
 []\T1/cmr/m/n/12 Per quando concerne l'operazione di \T1/cmr/bx/n/12 select\T1/
 cmr/m/n/12 , ricordando che un grafo clusterizzato
  []
 
 
-Overfull \hbox (39.32283pt too wide) in paragraph at lines 46--66
+Overfull \hbox (39.32283pt too wide) in paragraph at lines 46--64
  \T1/cmr/m/n/12 Lo \T1/cmr/bx/n/12 zooming \T1/cmr/m/n/12 ovvero la possibilità
  di effettuare un ingrandimento o un ridimensionamento
  []
@@ -1365,79 +1332,171 @@ Overfull \hbox (39.32283pt too wide) in paragraph at lines 46--66
 <figure/pieToBar.png, id=201, 730.73pt x 425.59pt>
 File: figure/pieToBar.png Graphic file (type png)
 <use figure/pieToBar.png>
-Package pdftex.def Info: figure/pieToBar.png  used on input line 75.
+Package pdftex.def Info: figure/pieToBar.png  used on input line 73.
 (pdftex.def)             Requested size: 412.56497pt x 240.28345pt.
 )
-Overfull \hbox (11.88501pt too wide) in paragraph at lines 67--114
+Overfull \hbox (11.88501pt too wide) in paragraph at lines 65--114
 \T1/cmr/m/n/12 definibili di completezza per un sistema. Di grande importanza i
 nfatti rappresentano
  []
 
 
-Overfull \hbox (5.89397pt too wide) in paragraph at lines 67--114
+Overfull \hbox (5.89397pt too wide) in paragraph at lines 65--114
 \T1/cmr/m/n/12 operazione è definita come la possibilità mediante una interazio
 ne di poter cambiare
  []
 
 
-Overfull \hbox (1.52141pt too wide) in paragraph at lines 67--114
+Overfull \hbox (1.52141pt too wide) in paragraph at lines 65--114
 \T1/cmr/m/n/12 operazioni eseguibili mediante le stesse e per completezza si vu
 ol dare la definizione
  []
 
 [33] [34 <./figure/panning.png>] [35 <./figure/pieToBar.png>] [36]
-(Capitolo5.tex) [37
+(Capitolo5.tex
+<figure/cgraphClass.png, id=216, 847.165pt x 368.37625pt>
+File: figure/cgraphClass.png Graphic file (type png)
+<use figure/cgraphClass.png>
+Package pdftex.def Info: figure/cgraphClass.png  used on input line 8.
+(pdftex.def)             Requested size: 412.56497pt x 179.3986pt.
 
-] (Capitolo6.tex
+Overfull \hbox (4.40727pt too wide) in paragraph at lines 3--14
+\OML/cmm/m/it/12 G; T >$ \T1/cmr/m/n/12 in cui $\OML/cmm/m/it/12 G$ \T1/cmr/m/n
+/12 è l'underlying graph definito dalla coppia $\OML/cmm/m/it/12 < V; E >$ \T1/
+cmr/m/n/12 rispettivamente
+ []
+
+
+Overfull \hbox (0.63823pt too wide) in paragraph at lines 3--14
+\T1/cmr/m/n/12 rappresentazione del grafo clusterizzato così come mostrato nell
+a figura Figura 5.1[].
+ []
+
+
+Overfull \hbox (28.33163pt too wide) in paragraph at lines 3--14
+\T1/cmr/m/n/12 String che ne rappresenta l'etichetta e mediante due oggetti Map
+: Map<number,Node>
+ []
+
+[37
+
+]
+Overfull \hbox (5.03284pt too wide) in paragraph at lines 15--16
+[]\T1/cmr/bx/n/12 id \T1/cmr/m/n/12 un numero, identificativo insieme alla sua 
+etichetta ma ancor più personale,
+ []
+
+<figure/nodeClass.png, id=220, 710.655pt x 305.14pt>
+File: figure/nodeClass.png Graphic file (type png)
+<use figure/nodeClass.png>
+Package pdftex.def Info: figure/nodeClass.png  used on input line 21.
+(pdftex.def)             Requested size: 412.56497pt x 177.14893pt.
+<figure/edgeClass.png, id=221, 475.7775pt x 366.36874pt>
+File: figure/edgeClass.png Graphic file (type png)
+<use figure/edgeClass.png>
+Package pdftex.def Info: figure/edgeClass.png  used on input line 29.
+(pdftex.def)             Requested size: 412.56497pt x 317.70961pt.
+[38 <./figure/cgraphClass.png>] [39 <./figure/nodeClass.png>] [40 <./figure/edg
+eClass.png>]
+<figure/clusterClass.png, id=235, 734.745pt x 397.485pt>
+File: figure/clusterClass.png Graphic file (type png)
+<use figure/clusterClass.png>
+Package pdftex.def Info: figure/clusterClass.png  used on input line 47.
+(pdftex.def)             Requested size: 412.56497pt x 223.1966pt.
+<figure/interfaccia.png, id=236, 1355.0625pt x 603.25375pt>
+File: figure/interfaccia.png Graphic file (type png)
+<use figure/interfaccia.png>
+Package pdftex.def Info: figure/interfaccia.png  used on input line 56.
+(pdftex.def)             Requested size: 412.56497pt x 183.66534pt.
+ [41 <./figure/clusterClass.png>] [42 <./figure/interfaccia.png>]
+Overfull \hbox (0.88626pt too wide) in paragraph at lines 67--70
+\T1/cmr/m/n/12 monolitica in molteplici oggetti è uno dei traguardi dello svilu
+ppo software. Inoltre
+ []
+
+<figure/graphView.png, id=245, 1356.06625pt x 469.755pt>
+File: figure/graphView.png Graphic file (type png)
+<use figure/graphView.png>
+Package pdftex.def Info: figure/graphView.png  used on input line 73.
+(pdftex.def)             Requested size: 412.56497pt x 142.91309pt.
+
+Overfull \hbox (7.68646pt too wide) in paragraph at lines 77--82
+\T1/cmr/m/n/12 Come si può notare dalla Figura 5.6[] il modello di visualizzazi
+one come già accennato
+ []
+
+[43 <./figure/graphView.png>]
+<figure/treeView.png, id=250, 1354.05875pt x 594.22pt>
+File: figure/treeView.png Graphic file (type png)
+<use figure/treeView.png>
+Package pdftex.def Info: figure/treeView.png  used on input line 92.
+(pdftex.def)             Requested size: 412.56497pt x 181.05096pt.
+
+Overfull \hbox (5.30643pt too wide) in paragraph at lines 84--96
+\T1/cmr/m/n/12 preferibile utilizzare una visualizzazione orizzonante con la ra
+dice centrale a sinistra
+ []
+
+[44]
+<figure/consoleView.png, id=255, 1358.07375pt x 478.78876pt>
+File: figure/consoleView.png Graphic file (type png)
+<use figure/consoleView.png>
+Package pdftex.def Info: figure/consoleView.png  used on input line 99.
+(pdftex.def)             Requested size: 412.56497pt x 145.44954pt.
+ [45]
+<figure/clustersOnly.png, id=259, 1362.08875pt x 531.9875pt>
+File: figure/clustersOnly.png Graphic file (type png)
+<use figure/clustersOnly.png>
+Package pdftex.def Info: figure/clustersOnly.png  used on input line 108.
+(pdftex.def)             Requested size: 412.56497pt x 161.13168pt.
+<figure/edgesOnly.png, id=260, 1355.0625pt x 596.2275pt>
+File: figure/edgesOnly.png Graphic file (type png)
+<use figure/edgesOnly.png>
+Package pdftex.def Info: figure/edgesOnly.png  used on input line 115.
+(pdftex.def)             Requested size: 412.56497pt x 181.52615pt.
+) [46 <./figure/treeView.png> <./figure/consoleView.png>] [47 <./figure/cluster
+sOnly.png> <./figure/edgesOnly.png>] (Capitolo6.tex
 Overfull \hbox (13.37521pt too wide) in paragraph at lines 5--6
 []\T1/cmr/bx/n/12 modifica \T1/cmr/m/n/12 di un oggetto, aggiunta di informazio
 ni o sostituzione di un attributo; 
  []
 
-<figure/redraw.png, id=219, 900.36375pt x 407.5225pt>
+<figure/redraw.png, id=271, 900.36375pt x 407.5225pt>
 File: figure/redraw.png Graphic file (type png)
 <use figure/redraw.png>
 Package pdftex.def Info: figure/redraw.png  used on input line 13.
 (pdftex.def)             Requested size: 412.56497pt x 186.73508pt.
-[38
+[48
 
-] [39 <./figure/redraw.png>]
-<figure/springExample.png, id=228, 691.58376pt x 466.74374pt>
+] [49 <./figure/redraw.png>]
+<figure/springExample.png, id=279, 691.58376pt x 466.74374pt>
 File: figure/springExample.png Graphic file (type png)
 <use figure/springExample.png>
 Package pdftex.def Info: figure/springExample.png  used on input line 32.
 (pdftex.def)             Requested size: 412.56497pt x 278.43884pt.
- [40] [41 <./figure/springExample.png>]
-<figure/json.png, id=236, 1010.77625pt x 486.81876pt>
+ [50] [51 <./figure/springExample.png>]
+<figure/json.png, id=288, 1010.77625pt x 486.81876pt>
 File: figure/json.png Graphic file (type png)
 <use figure/json.png>
 Package pdftex.def Info: figure/json.png  used on input line 51.
 (pdftex.def)             Requested size: 412.56497pt x 198.70558pt.
- [42 <./figure/json.png>]
+ [52 <./figure/json.png>]
 
-LaTeX Warning: Reference `fig:viewAlg' on page 43 undefined on input line 58.
+LaTeX Warning: Reference `fig:viewAlg' on page 53 undefined on input line 58.
 
-
-LaTeX Warning: Reference `fig:interfaccia' on page 43 undefined on input line 5
-8.
-
-<figure/erroreArco.png, id=241, 1289.81876pt x 511.9125pt>
+<figure/erroreArco.png, id=293, 1289.81876pt x 511.9125pt>
 File: figure/erroreArco.png Graphic file (type png)
 <use figure/erroreArco.png>
 Package pdftex.def Info: figure/erroreArco.png  used on input line 63.
 (pdftex.def)             Requested size: 330.05322pt x 130.9929pt.
-
-LaTeX Warning: Reference `fig:clusterClass' on page 43 undefined on input line 
-67.
-
 
 Overfull \hbox (7.58658pt too wide) in paragraph at lines 60--68
 \T1/cmr/m/n/12 Un buon metodo di creazione è quello che applica una strategia d
 i discesa dell'albero
  []
 
-[43] [44 <./figure/erroreArco.png>]
-<figure/archi.png, id=250, 1102.1175pt x 387.4475pt>
+[53] [54 <./figure/erroreArco.png>]
+<figure/archi.png, id=301, 1102.1175pt x 387.4475pt>
 File: figure/archi.png Graphic file (type png)
 <use figure/archi.png>
 Package pdftex.def Info: figure/archi.png  used on input line 75.
@@ -1447,27 +1506,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
 
-[45 <./figure/archi.png>]
-<figure/delete.png, id=255, 1044.90375pt x 432.61626pt>
+[55 <./figure/archi.png>]
+<figure/delete.png, id=306, 1044.90375pt x 432.61626pt>
 File: figure/delete.png Graphic file (type png)
 <use figure/delete.png>
 Package pdftex.def Info: figure/delete.png  used on input line 92.
 (pdftex.def)             Requested size: 330.05322pt x 136.65111pt.
- [46]
-
-LaTeX Warning: Reference `fig:graphView' on page 47 undefined on input line 97.
-
-
-<figure/changeRad.png, id=259, 1359.0775pt x 520.94624pt>
+ [56]
+<figure/changeRad.png, id=311, 1359.0775pt x 520.94624pt>
 File: figure/changeRad.png Graphic file (type png)
 <use figure/changeRad.png>
 Package pdftex.def Info: figure/changeRad.png  used on input line 100.
 (pdftex.def)             Requested size: 330.05322pt x 126.50816pt.
-
-LaTeX Warning: Reference `fig:graphView' on page 47 undefined on input line 105
-.
-
-<figure/changePalette.png, id=260, 1351.0475pt x 533.995pt>
+<figure/changePalette.png, id=312, 1351.0475pt x 533.995pt>
 File: figure/changePalette.png Graphic file (type png)
 <use figure/changePalette.png>
 Package pdftex.def Info: figure/changePalette.png  used on input line 108.
@@ -1478,12 +1529,8 @@ Overfull \hbox (3.28333pt too wide) in paragraph at lines 97--114
 i valori esadecimale
  []
 
-[47 <./figure/delete.png>] [48 <./figure/changeRad.png>]
-
-LaTeX Warning: Reference `fig:graphView' on page 49 undefined on input line 116
-.
-
-<figure/addText.png, id=269, 1348.03625pt x 536.0025pt>
+[57 <./figure/delete.png>] [58 <./figure/changeRad.png>]
+<figure/addText.png, id=321, 1348.03625pt x 536.0025pt>
 File: figure/addText.png Graphic file (type png)
 <use figure/addText.png>
 Package pdftex.def Info: figure/addText.png  used on input line 119.
@@ -1494,25 +1541,20 @@ Overfull \hbox (6.08963pt too wide) in paragraph at lines 115--124
 ata o sarà eliminato. 
  []
 
-[49 <./figure/changePalette.png>] [50 <./figure/addText.png>]
-<figure/navMessage.png, id=279, 1182.4175pt x 500.87125pt>
+[59 <./figure/changePalette.png>] [60 <./figure/addText.png>]
+<figure/navMessage.png, id=330, 1182.4175pt x 500.87125pt>
 File: figure/navMessage.png Graphic file (type png)
 <use figure/navMessage.png>
 Package pdftex.def Info: figure/navMessage.png  used on input line 130.
 (pdftex.def)             Requested size: 412.56497pt x 174.75728pt.
-
-
-LaTeX Warning: Reference `fig:graphView' on page 51 undefined on input line 134
-.
-
 
 Overfull \hbox (21.61794pt too wide) in paragraph at lines 125--136
 \T1/cmr/m/n/12 Non è però possibile modificare e navigare contemporaneamente in
  quanto risulterebbe
  []
 
-[51]
-<figure/zoomGraph.png, id=283, 329.0694pt x 132.495pt>
+[61]
+<figure/zoomGraph.png, id=334, 329.0694pt x 132.495pt>
 File: figure/zoomGraph.png Graphic file (type png)
 <use figure/zoomGraph.png>
 Package pdftex.def Info: figure/zoomGraph.png  used on input line 143.
@@ -1523,10 +1565,10 @@ Overfull \hbox (0.88396pt too wide) in paragraph at lines 140--116
 te sposterà il cursore
  []
 
-[52 <./figure/navMessage.png>] [53 <./figure/zoomGraph.png>] (Capitolo7.tex)
-[54
+[62 <./figure/navMessage.png>] [63 <./figure/zoomGraph.png>] (Capitolo7.tex)
+[64
 
-] (Capitolo8.tex) [55
+] (Capitolo8.tex) [65
 
 ] (conclusioni.tex
 Overfull \hbox (17.89784pt too wide) in paragraph at lines 2--3
@@ -1570,12 +1612,12 @@ Overfull \hbox (23.4493pt too wide) in paragraph at lines 6--7
 dei metodi templetizzati
  []
 
-[56
+[66
 
 
-]) [57] (mainTesi.bbl
+]) [67] (mainTesi.bbl
 bibitemlist
-) [58
+) [68
 
 ]
 \tf@toc=\write5
@@ -1591,15 +1633,12 @@ bibitemlist
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 17988 strings out of 494857
- 333753 string characters out of 3178232
- 411241 words of memory out of 3000000
- 21256 multiletter control sequences out of 15000+200000
+ 18045 strings out of 494857
+ 335039 string characters out of 3178232
+ 411593 words of memory out of 3000000
+ 21303 multiletter control sequences out of 15000+200000
  22147 words of font info for 49 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
  60i,12n,60p,1720b,423s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1624,9 +1663,9 @@ amsfonts/cm/cmr12.pfb></home/Jadis/.miktex/texmfs/install/fonts/type1/public/am
 sfonts/cm/cmr8.pfb></home/Jadis/.miktex/texmfs/install/fonts/type1/public/amsfo
 nts/cm/cmsy10.pfb></home/Jadis/.miktex/texmfs/install/fonts/type1/public/amsfon
 ts/cm/cmsy8.pfb>
-Output written on mainTesi.pdf (69 pages, 1355347 bytes).
+Output written on mainTesi.pdf (79 pages, 1671642 bytes).
 PDF statistics:
- 886 PDF objects out of 1000 (max. 8388607)
+ 947 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 148 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 198 words of extra memory for PDF output out of 10000 (max. 10000000)
 
