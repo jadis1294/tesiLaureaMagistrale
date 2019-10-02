@@ -130,7 +130,7 @@
 
 % Comandi riguardanti l'inserimento di capitoli
 \newcommand{\introduzione}[1]{\newpage \chapter{Introduzione} \input{#1}}
-\newcommand{\conclusioni}[1]{\newpage \chapter{Conclusioni} \markboth{CONCLUSIONI}{CONCLUSIONI} \input{#1}}
+\newcommand{\conclusioni}[1]{\newpage \chapter{Conclusioni e sviluppi futuri} \markboth{CONCLUSIONI}{CONCLUSIONI} \input{#1}}
 \newcommand{\capitolo}[2]{\newpage \chapter{#1}\label{cap:#2}\input{#2}}
 
 

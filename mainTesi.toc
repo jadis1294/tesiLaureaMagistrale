@@ -2,45 +2,55 @@
 \babel@toc {italian}{}
 \contentsline {chapter}{Indice}{iii}% 
 \contentsline {chapter}{Elenco delle figure}{vi}% 
-\contentsline {chapter}{Elenco delle tabelle}{vii}% 
-\contentsline {chapter}{Introduzione}{viii}% 
-\contentsline {section}{Ringraziamenti}{viii}% 
-\contentsline {section}{Premessa}{ix}% 
+\contentsline {chapter}{Elenco delle tabelle}{viii}% 
+\contentsline {chapter}{Introduzione}{ix}% 
+\contentsline {section}{Ringraziamenti}{ix}% 
+\contentsline {section}{Premessa}{x}% 
 \contentsline {chapter}{\chapternumberline {1}Stato dell'arte}{1}% 
 \contentsline {section}{\numberline {1.1}Definizioni preliminari}{1}% 
 \contentsline {subsection}{\numberline {1.1.1}Grafi}{1}% 
-\contentsline {subsection}{\numberline {1.1.2}Alberi}{3}% 
+\contentsline {subsection}{\numberline {1.1.2}Alberi}{4}% 
 \contentsline {section}{\numberline {1.2}C-Graph}{6}% 
 \contentsline {subsection}{\numberline {1.2.1}clustered planarity}{7}% 
 \contentsline {subsection}{\numberline {1.2.2}flat clustered planarity}{8}% 
-\contentsline {chapter}{\chapternumberline {2}Tecnologie e metodologie}{10}% 
-\contentsline {section}{\numberline {2.1}Visualizzazione delle infomazioni}{10}% 
-\contentsline {subsection}{\numberline {2.1.1}rappresentazione inclusion-Tree}{11}% 
-\contentsline {subsection}{\numberline {2.1.2}rappresentazione underlying Graph}{12}% 
-\contentsline {section}{\numberline {2.2}Scelte di linguaggi e librerie}{14}% 
-\contentsline {subsection}{\numberline {2.2.1}Javascript}{14}% 
-\contentsline {subsection}{\numberline {2.2.2}D3.js}{15}% 
-\contentsline {section}{\numberline {2.3}Scelta della struttura dati}{16}% 
-\contentsline {chapter}{\chapternumberline {3}Analisi e problemi}{18}% 
-\contentsline {section}{\numberline {3.1}Obiettivi formativi}{18}% 
-\contentsline {section}{\numberline {3.2}Analisi dei requisiti e scelte progettuali}{19}% 
-\contentsline {chapter}{\chapternumberline {4}Progettazione e implementazione}{23}% 
-\contentsline {section}{\numberline {4.1}Implementazione del reticolo discreto}{23}% 
-\contentsline {section}{\numberline {4.2}Creazione dello spazio discreto}{25}% 
-\contentsline {section}{\numberline {4.3}Inizializzazione degli Storage}{26}% 
-\contentsline {section}{\numberline {4.4}Iterazione}{28}% 
-\contentsline {subsection}{\numberline {4.4.1}Stream}{28}% 
-\contentsline {subsection}{\numberline {4.4.2}Condizioni di bordo e di angolo}{29}% 
-\contentsline {subsection}{\numberline {4.4.3}Collisione}{29}% 
-\contentsline {section}{\numberline {4.5}Caricare solidi}{30}% 
-\contentsline {section}{\numberline {4.6}Bitmap}{31}% 
-\contentsline {section}{\numberline {4.7}Testing}{32}% 
-\contentsline {chapter}{\chapternumberline {5}Esempi di utilizzo e possibili sviluppi}{34}% 
-\contentsline {section}{\numberline {5.1}Quadtree e Octree}{34}% 
-\contentsline {subsection}{\numberline {5.1.1}Definizione delle strutture}{34}% 
-\contentsline {subsection}{\numberline {5.1.2}Teoremi stipulati sulle strutture}{35}% 
-\contentsline {subsection}{\numberline {5.1.3}Inserimento particelle}{36}% 
-\contentsline {section}{\numberline {5.2}Griglie a infittimento e autoadattive}{37}% 
-\contentsline {section}{\numberline {5.3}Esempi di utilizzo}{37}% 
-\contentsline {chapter}{Conclusioni}{39}% 
-\contentsline {chapter}{Bibliografia}{41}% 
+\contentsline {chapter}{\chapternumberline {2}Tecnologie e metodologie}{11}% 
+\contentsline {section}{\numberline {2.1}Visualizzazione delle informazioni}{11}% 
+\contentsline {subsection}{\numberline {2.1.1}rappresentazione inclusion-Tree}{12}% 
+\contentsline {subsection}{\numberline {2.1.2}rappresentazione underlying Graph}{14}% 
+\contentsline {section}{\numberline {2.2}Linguaggi e librerie}{16}% 
+\contentsline {subsection}{\numberline {2.2.1}Javascript}{16}% 
+\contentsline {subsection}{\numberline {2.2.2}D3.js}{17}% 
+\contentsline {section}{\numberline {2.3}Oggetti per la struttura dati}{18}% 
+\contentsline {chapter}{\chapternumberline {3}Obiettivi e scelte progettuali}{20}% 
+\contentsline {section}{\numberline {3.1}Obiettivi}{20}% 
+\contentsline {section}{\numberline {3.2}Analisi dei requisiti e scelte progettuali}{21}% 
+\contentsline {section}{\numberline {3.3}Principi per la visualizzazione}{25}% 
+\contentsline {chapter}{\chapternumberline {4}Primitive di interazione}{27}% 
+\contentsline {section}{\numberline {4.1}definizioni dell'interazione}{27}% 
+\contentsline {section}{\numberline {4.2}classificazione}{29}% 
+\contentsline {section}{\numberline {4.3}modalit\IeC {\`a} di interazione scelte e motivazioni}{31}% 
+\contentsline {chapter}{\chapternumberline {5}Interfacce e struttura dati}{37}% 
+\contentsline {section}{\numberline {5.1}Struttura dati}{37}% 
+\contentsline {section}{\numberline {5.2}Log-in ed inizializzazione}{37}% 
+\contentsline {section}{\numberline {5.3}Graph-view}{37}% 
+\contentsline {section}{\numberline {5.4}Tree-view}{37}% 
+\contentsline {section}{\numberline {5.5}Console-view}{37}% 
+\contentsline {chapter}{\chapternumberline {6}Funzioni utente}{38}% 
+\contentsline {section}{\numberline {6.1}disegno dei dati}{39}% 
+\contentsline {section}{\numberline {6.2}creazione}{40}% 
+\contentsline {subsection}{\numberline {6.2.1}import/export}{40}% 
+\contentsline {subsection}{\numberline {6.2.2}template}{43}% 
+\contentsline {subsection}{\numberline {6.2.3}elemento del grafo}{43}% 
+\contentsline {section}{\numberline {6.3}modifica}{46}% 
+\contentsline {subsection}{\numberline {6.3.1}Spostamento e cancellazione}{46}% 
+\contentsline {subsection}{\numberline {6.3.2}raggio e colore degli oggetti}{47}% 
+\contentsline {subsection}{\numberline {6.3.3}aggiungere descrizione agli oggetti}{49}% 
+\contentsline {section}{\numberline {6.4}navigazione}{51}% 
+\contentsline {chapter}{\chapternumberline {7}Riduzione Flat del grafo clusterizzato}{54}% 
+\contentsline {section}{\numberline {7.1}metodo}{54}% 
+\contentsline {section}{\numberline {7.2}algoritmo}{54}% 
+\contentsline {chapter}{\chapternumberline {8}Esempi reali di utilizzo}{55}% 
+\contentsline {section}{\numberline {8.1}Quadtree e Octree}{55}% 
+\contentsline {subsection}{\numberline {8.1.1}Definizione delle strutture}{55}% 
+\contentsline {chapter}{Conclusioni e sviluppi futuri}{56}% 
+\contentsline {chapter}{Bibliografia}{58}% 

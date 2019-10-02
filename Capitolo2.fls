@@ -1,0 +1,6 @@
+PWD /home/Jadis/Documenti/gitClone/tesiLaureaMagistrale
+INPUT /home/Jadis/.miktex/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt
+INPUT Capitolo2.tex
+OUTPUT Capitolo2.log
+INPUT /home/Jadis/.miktex/texmfs/install/fonts/tfm/public/cm/cmbx10.tfm
+INPUT /home/Jadis/.miktex/texmfs/install/fonts/tfm/public/cm/cmti10.tfm

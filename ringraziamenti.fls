@@ -1,0 +1,7 @@
+PWD /home/Jadis/Documenti/gitClone/tesiLaureaMagistrale
+INPUT /home/Jadis/.miktex/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt
+INPUT ringraziamenti.tex
+OUTPUT ringraziamenti.log
+INPUT /home/Jadis/.miktex/texmfs/install/fonts/tfm/public/cm/cmti10.tfm
+OUTPUT ringraziamenti.pdf
+INPUT /home/Jadis/.miktex/texmfs/data/pdftex/config/pdftex.map

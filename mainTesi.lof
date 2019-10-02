@@ -8,12 +8,31 @@
 \contentsline {figure}{\numberline {1.4}{\ignorespaces esempio di flat Tree }}{5}% 
 \contentsline {figure}{\numberline {1.5}{\ignorespaces esempio di grafo clusterizzato }}{6}% 
 \addvspace {10pt}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces rappresentazione node-link HW drawing di un albero }}{11}% 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces rappresentazioni Space-filling}}{12}% 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces rappresentazione Spring Embedding}}{13}% 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces rappresentazioni Space-filling}}{16}% 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces rappresentazione node-link HW drawing di un albero }}{13}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces rappresentazioni Space-filling}}{14}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces rappresentazione node-Link layered Drawing}}{14}% 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces rappresentazione Spring Embedding}}{15}% 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces rappresentazioni Space-filling}}{19}% 
+\addvspace {10pt}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Prima iterazione degli oggetti di dominio}}{22}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Seconda iterazione degli oggetti di dominio}}{23}% 
+\addvspace {10pt}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Operazione di zooming su un piano $<x,y>$}}{32}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Operazioni di panning e zooming su un piano $<x,y>$}}{34}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Esempio di encoding da un diagramma a torta ad uno a barre}}{35}% 
 \addvspace {10pt}
 \addvspace {10pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces spazio discreto }}{25}% 
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Schema dell'impiego della funzione di disegno dei dati }}{39}% 
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Esempio delle forze attrattive e repulsive utilizzate in fase di disegno }}{41}% 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Esempio di file json per l'import di un grafo clusterizzato }}{42}% 
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Messaggio di errore per il tentativo di creazione di un arco senza due nodi}}{44}% 
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Esempio di planarit\IeC {\`a} nella rappresentazione di un grafo clusterizzato}}{45}% 
+\contentsline {figure}{\numberline {6.6}{\ignorespaces algoritmo di cancellazione di un oggetto}}{47}% 
+\contentsline {figure}{\numberline {6.7}{\ignorespaces operazione di cambiamento del raggio dei cluster da parte dell'utente}}{48}% 
+\contentsline {figure}{\numberline {6.8}{\ignorespaces impiego di Palette diverse da quella di default da parte dell'utente}}{49}% 
+\contentsline {figure}{\numberline {6.9}{\ignorespaces aggiunta di commenti da parte dell'utente}}{50}% 
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Messaggio di aiuto al primo accesso dell'utente alla navigate-view}}{52}% 
+\contentsline {figure}{\numberline {6.11}{\ignorespaces zooming di un grafo nella navigate-view}}{53}% 
+\addvspace {10pt}
 \addvspace {10pt}
 \addvspace {10pt}
