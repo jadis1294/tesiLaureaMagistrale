@@ -58,7 +58,11 @@ I nodi dell'albero diversi dalla radice possono inoltre essere partizionati in d
 \end{figure}
 Un nodo è inoltre definibile \textbf{omogeneo} se tutti i figli di quel nodo sono foglie o sono nodi interni.
 Data la definizione di nodo omogeneo, viene detto che un albero è omogeneo se e solo se tutti i suoi nodi sono nodi omogenei.
-Date queste definizioni introduttive relative agli alberi è possibile definire un albero flat (come mostrato in \textbf{\figurename~\ref{fig:flatTree}}) come un albero in cui tutte le sue foglie hanno profondità pari a due.\\
+Si definisce poi $S(T)$ come la dimensione dell'albero di inclusione $T$, ovvero il numero di nodi superiori di $T$ diversi dalla radice.
+Date queste definizioni introduttive relative agli alberi è possibile definire un albero flat (come mostrato in \textbf{\figurename~\ref{fig:flatTree}}) come \\
+\begin{center}
+	\textit{Un albero omogeneo T di altezza $h(T)>= 2$ e dimensione $S(T)> 0$  e che contiene almeno un nodo $\mu^*\neq r(T)$ in modo tale che $T(\mu^*)$ è flat}
+\end{center}
 Definendo in questo modo un albero flat è facile notare come ogni albero flat è anche omogeneo avendo tutti i nodi interni che hanno come figli esclusivamente foglie ed il nodo radice che possiede solo nodi interni come figli.\\
 Per completezza si voglio dare anche le definizioni di profondità di un nodo e di altezza di un albero rispettivamente come la lunghezza del cammino dalla radice al nodo e la profondità massima dei suoi nodi.
 Una volta terminate le definizioni iniziali si può proseguire con quella di grafo clusterizzato.

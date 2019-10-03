@@ -66,24 +66,32 @@ Generato l'svg principale, sempre durante l'inizializzazione del log-iin esso ve
 \end{itemize}
 La divisione degli svg che andranno a comporre quello relativo al piano di lavoro è necessaria per molteplici fattori, primo fra tutti il poter scindere una entità monolitica in molteplici oggetti è uno dei traguardi dello sviluppo software. Inoltre è possibile in questo modo poter trattare, come sarà analizzato meglio in seguito, le tre entità che rappresentano la classe \textit{ClusteredGraph} come oggetti a se stanti.\\
 Una volta che l'utente ha avuto accesso al sistema ed è stato introdotto il concetto di svg e di piano di lavoro è possibile cominciare a definire quello di interfacce e di piani di lavoro diversi.
-In particolare il sistema essendo basato su una coppia $<G,T>$ che compongono il grafo clusterizzato $G$ si è deciso di implementare la funzione di encode mediante la possibilità di scelta tra due viste separate viste nel dettaglio di seguito.
+In particolare il sistema essendo basato su una coppia $<G,T>$ che compongono il grafo clusterizzato $G$ si è deciso di implementare la funzione di encode dando all'utente la possibilità di scelta tra due viste separate riportate nelle sezioni seguenti. Prima di passare all'analisi di queste rappresentazioni è bene anticipare la struttura dell'algoritmo, mostrato nella \figurename~\ref{fig:viewAlg},che il sistema andrà ad eseguire ogni volta l'utente chiederà mediante una interazione l'operazione di encode dei dati. Ad ogni richiesta sopra descritta il sistema confronterà la vista su cui attualmente l'utente lavora con quella richiesta ritornando nel caso in cui le due viste siano uguali ed eliminando la vista visualizzata e creano quella richiesta nel caso contrario.\\
+La strategia scelta dell'eliminare e ricreare un oggetto si sposa bene con i principi per la visualizzazione visti in precedenza. In questo modo l'utente andrà ad interfacciarsi con una unica visualizzazione alla volta ed il piano di lavoro resterà libero evitando ogni volta di dimezzare la grandezza dello stesso per far posto a visualizzazioni che non sono funzionali alle trasformazioni ma che hanno esclusivamente scopi di analisi.
+\begin{figure}[!htb]
+	\begin{center}
+		\includegraphics[width=1 \linewidth]{figure/viewAlg}
+	\end{center}
+	\caption{Struttura dell'algoritmo dell'operazione di encode\label{fig:viewAlg}}
+\end{figure}
+
 \section{Graph-view}
+La visualizzazione a grafo, anche definita graph-view è la visualizzazione di default ed è anche quella con cui l'utente si interfaccerà maggiormente. La graph-view è infatti l'unica vista con cui l'utente può avere una iterazione di grado tre, ovvero il grado massimo, in cui può interagire sulle modifiche e le trasformazioni non solo riguardo la visualizzazione ma anche sui dati.\\
+Come si può notare dalla \figurename~\ref{fig:graphView} il modello di visualizzazione come già accennato riprende quello Node-link in cui "Node" rappresenta non solo i nodi del grafo ma anche i cluster dell'albero di inclusione. La differenza tra queste due entità a livello di visualizzazione può essere vista mediante due diversi fattori: il colore ed il raggio.
+Per quanto riguarda il colore dei nodi esso risulta fisso in quanto ogni nodo rappresenterà sempre lo stesso elemento che cambierà per quanto riguarda la posizione o il cluster di appartenenza ma non nella sostanza. Anche il raggio del nodo, che verrà definito $r_n$, ha un valore fisso non dipendente da nessuna variabile.
+Per quanto riguarda i cluster invece il colore, che di default presenta una casualità nella propria visualizzazione, varia per ogni cluster definendo una ulteriore variabile che ne definisce l'unicità.
+Il raggio dei cluster definito $r_c$, al contrario di quello dei nodi che come abbiamo visto è fisso esso è dipendente da variabili come sarà visto nel dettaglio ne capitolo successivo.
 \begin{figure}[!htb]
 	\begin{center}
 		\includegraphics[width=1 \linewidth]{figure/graphView}
 	\end{center}
 	\caption{Graph View\label{fig:graphView}}
 \end{figure}
-La visualizzazione a grafo, anche definita graph-view è la visualizzazione di default ed è anche quella con cui l'utente si interfaccerà maggiormente. La graph-view è infatti l'unica vista con cui l'utente può avere una iterazione di grado tre, ovvero il grado massimo, in cui può interagire sulle modifiche e le trasformazioni non solo riguardo la visualizzazione ma anche sui dati.\\
-Come si può notare dalla \figurename~\ref{fig:graphView} il modello di visualizzazione come già accennato riprende quello Node-link in cui "Node" rappresenta non solo i nodi del grafo ma anche i cluster dell'albero di inclusione. La differenza tra queste due entità a livello di visualizzazione può essere vista mediante due diversi fattori: il colore ed il raggio.
-Per quanto riguarda il colore dei nodi esso risulta fisso in quanto ogni nodo rappresenterà sempre lo stesso elemento che cambierà per quanto riguarda la posizione o il cluster di appartenenza ma non nella sostanza. Anche il raggio del nodo, che verrà definito $r_n$, ha un valore fisso non dipendente da nessuna variabile.
-Per quanto riguarda i cluster invece il colore, che di default presenta una randomicità nella propria visualizzazione, varia per ogni cluster definendo una ulteriore variabile che ne definisce l'unicità.
-Il raggio dei cluster definito $r_c$, al contrario di quello dei nodi che come abbiamo visto è fisso esso è dipendente da variabili come sarà visto nel dettaglio ne capitolo successivo.
 
 \section{Tree-view}
 Non avendo un limite al numero di nodi e di cluster visualizzabili la graph view può ad un primo impatto portare a visualizzare un gran numero di informazioni. È facile intuire come l'occhio umano veda una rappresentazione organizzata in maniera notevolmente migliore rispetto ad una piatta e prima di profondità anche se fittizia. Per questo l'utente in qualunque momento durante una sessione di lavoro potrà interagire con il sistema e passare da una visualizzazione a grafo clusterizzato ad una dell'inclusion tree in cui però saranno rappresentati anche i nodi e gli archi dell'underlying graph.
 Ogni volta che si chiederà questa operazione il sistema risponderà eliminando la visualizzazione e inizializzandone una nuova con un encode diverso degli stessi dati rappresentati in precedenza. Questa visualizzazione inizializzata sarà un svg detto \#\_ctree che possiederà grandezza uguale a quella dell' \#cgraph ma senza una divisione degli elementi che andranno a comporre la rappresentazione poichè non necessari.\\
-Al contrario che nella graph view, questa risulta comunque essere un modello node-link ma in cui non si avrà necessità di inserire forze per una rappresentazione ottimale in quanto sarà una semplice rappresentazione "layered" con l'aggiunta di archi che collegano le foglie tra loro come mostrato nella \figurename~\ref{fig:treeView}.
+Al contrario che nella graph view, questa risulta comunque essere un modello node-link ma in cui non si avrà necessità di inserire forze per una rappresentazione ottimale in quanto sarà una semplice rappresentazione "layered" con l'aggiunta di archi che collegano le foglie tra loro come mostrato nella \figurename~\ref{fig:treeView} che contiene lo stesso grafo visualizzato in precedenza nella graph-view e visualizzato nella figura \figurename~\ref{fig:graphView}.
 Come si nota inoltre il raggio dei cluster e dei nodi risulta essere la stessa anche se ciò che caratterizza una foglia, che sia essa un cluster vuoto oppure un nodo all'interno di un cluster, è che questa sarà di un colore diverso rispetto ai nodi interni.
 Essendo un sistema in cui non vi è una soglia massima del numero di nodi è di cluster definibili o importabili si possono presentare situazioni limite. Per questo sono state implementate due diverse tipologie di tree-view, entrambe discendenti: ad albero verticale ed orizzontale.
 All'utente è lasciata la scelta di quale delle due utilizzare anche se è consigliabile ai fini di una buona visualizzazione l'utilizzo di una rappresentazione verticale nel caso in cui si hanno tanti cluster sullo stesso livello ma la profondità dell'albero è relativamente bassa mentre è sicuramente preferibile utilizzare una visualizzazione orizzonante con la radice centrale a sinistra dell'svg nel caso in cui si hanno pochi cluster per ogni livello ma una profondità maggiore da gestire.
@@ -94,6 +102,9 @@ All'utente è lasciata la scelta di quale delle due utilizzare anche se è consi
 	\caption{tree View\label{fig:treeView}}
 \end{figure}
 \section{Console-view}
+Oltre all'operazione di encode viste si ha la necessità di dover mostrare, sotto richiesta dell'utente, dei log riguardanti i cambiamenti eseguiti durante una stessa sessione di lavoro. Per questo è stata introdotta una terza vista definita \textit{console-view} che risolve questa problematica.
+Mediante una interazione similare a quelle viste in precedenza, l'utente può accedere a questa visualizzazione. Il sistema risponderà eliminando il precedente svg che sia esso \#cgraph oppure \#ctree e creerà un nuovo svg di dimensioni similari alle altre due ed in cui saranno inseriti i messaggi delle ultime $n$ operazioni eseguite. Ogni operazione infatti nel momento in cui viene richiesta dall'utente nel mentre viene eseguita salva un valore di tipo String all'interno di un oggetto Map<number,String> \textit{logs} inzializzato al log-in iniziale dell'utente.
+La vista sarà similare a quella mostrata nella \figurename~\ref{fig:consoleView}, nella quale oltre al messaggio che ricorda l'operazione eseguita e richiesta, sarà visualizzato l'orario in cui l'utente ha interagito con il sistema. Terminate le viste e delucidato il lettore sulle operazioni di encode eseguibili si passa adesso a definire con più chiarezza le operazioni di filtraggio
 \begin{figure}[!htb]
 	\begin{center}
 		\includegraphics[width=1 \linewidth]{figure/consoleView}
@@ -102,14 +113,14 @@ All'utente è lasciata la scelta di quale delle due utilizzare anche se è consi
 \end{figure}
 
 \section{Filtraggio degli oggetti}
-puoi mostrare solo una parte degli oggetti
+Come definito nel capitolo precedente una operazione di filtraggio permette di mostrare un sottoinsieme di dati secondo certe regole, ovvero ciò che può esser definito come uno zoom semantico. Si immagini un grafo clusterizzato di dimensioni notevoli o comunque con una delle classi di oggetti che lo compongono che in un momento particolare abbia una maggiore importanza rispetto agli altri. Volendo lavorare solamente su un particolare oggetto è possibile stando nella \textit{graph-view} eseguire una operazione di filtraggio su una delle tre componenti come mostrato nella figura \figurename~\ref{fig:clustersOnly} che fa riferimento  alla \figurename~\ref{fig:graphView} in cui però l'utente ha necessità di vedere solamente la disposizione dei cluster nel dettaglio.
 \begin{figure}[!htb]
 	\begin{center}
 		\includegraphics[width=1 \linewidth]{figure/clustersOnly}
 	\end{center}
 	\caption{visualizzazione dei soli cluster\label{fig:clustersOnly}}
 \end{figure}
-
+Essendo un grafo clusterizzato un grafo planare, per quanto riguarda gli archi si ha la necessità che essi non intersechino nulla ad di fuori del loro nodo \textit{source} e del nodo \textit{target}. In un grafo di grandi dimensioni o comunque con un numero relativamente alto di archi sarebbe di difficile analisi questa esigenza. Per questo facendo riferimento alla \figurename~\ref{fig:graphView} l'utente può avere accesso ad una visualizzazione filtrata sugli archi come mostrato in figura \figurename~\ref{fig:edgesOnly}. Partendo dalla visualizzazione \textit{graph-view} che come detto dona all'utente un grado di integrazione massimo, filtrando una particolare classe tra le sue componenti si avrà un maggiore dettaglio per quell'oggetto, ma si perderanno due gradi di integrazione passando dalla possibilità di interazione che permette la trasformazione della visualizzazione e dei dati a una integrazione di grado $0$ che consentirà solo l'analisi esattamente come visto per l'operazione di encode che porta alla \textit{tree-view}, anche se è sempre possibile tornare alla rappresentazione di default per poter continuare la sessione di lavoro.  
 \begin{figure}[!htb]
 	\begin{center}
 		\includegraphics[width=1 \linewidth]{figure/edgesOnly}

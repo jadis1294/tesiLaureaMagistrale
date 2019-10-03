@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050) (preloaded format=pdflatex 2019.9.23)  3 OCT 2019 00:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050) (preloaded format=pdflatex 2019.9.23)  3 OCT 2019 13:26
 entering extended mode
 **./mainTesi.tex
 (mainTesi.tex
@@ -978,12 +978,12 @@ Overfull \hbox (1.32564pt too wide) in paragraph at lines 3--4
 i grafo clusterizzato.
  []
 
-<figure/grafoGenerico.png, id=61, 656.4525pt x 347.2975pt>
+<figure/grafoGenerico.png, id=64, 656.4525pt x 347.2975pt>
 File: figure/grafoGenerico.png Graphic file (type png)
 <use figure/grafoGenerico.png>
 Package pdftex.def Info: figure/grafoGenerico.png  used on input line 9.
 (pdftex.def)             Requested size: 288.79422pt x 152.79016pt.
-<figure/kuratowski.png, id=63, 672.5125pt x 342.27875pt>
+<figure/kuratowski.png, id=66, 672.5125pt x 342.27875pt>
 File: figure/kuratowski.png Graphic file (type png)
 <use figure/kuratowski.png>
 Package pdftex.def Info: figure/kuratowski.png  used on input line 22.
@@ -992,7 +992,7 @@ Package pdftex.def Info: figure/kuratowski.png  used on input line 22.
 
 
 ] [2 <./figure/grafoGenerico.png>]
-<figure/alberoGenerico.png, id=80, 640.3925pt x 335.2525pt>
+<figure/alberoGenerico.png, id=82, 640.3925pt x 335.2525pt>
 File: figure/alberoGenerico.png Graphic file (type png)
 <use figure/alberoGenerico.png>
 Package pdftex.def Info: figure/alberoGenerico.png  used on input line 40.
@@ -1017,23 +1017,29 @@ figlio e suddivisibili ulteriormente
  []
 
 [4 <./figure/alberoGenerico.png>]
-<figure/flatTree.png, id=89, 642.4pt x 323.2075pt>
+<figure/flatTree.png, id=91, 642.4pt x 323.2075pt>
 File: figure/flatTree.png Graphic file (type png)
 <use figure/flatTree.png>
 Package pdftex.def Info: figure/flatTree.png  used on input line 55.
 (pdftex.def)             Requested size: 330.05322pt x 166.06165pt.
-<figure/cgraphGenerico.png, id=90, 601.24625pt x 384.43625pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--63
+
+ []
+
+[5 <./figure/flatTree.png>]
+<figure/cgraphGenerico.png, id=96, 601.24625pt x 384.43625pt>
 File: figure/cgraphGenerico.png Graphic file (type png)
 <use figure/cgraphGenerico.png>
-Package pdftex.def Info: figure/cgraphGenerico.png  used on input line 68.
+Package pdftex.def Info: figure/cgraphGenerico.png  used on input line 72.
 (pdftex.def)             Requested size: 371.30595pt x 237.42117pt.
- [5 <./figure/flatTree.png>] [6 <./figure/cgraphGenerico.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 83--87
+ [6 <./figure/cgraphGenerico.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 87--91
 
  []
 
 [7]
-Overfull \hbox (12.1242pt too wide) in paragraph at lines 96--98
+Overfull \hbox (12.1242pt too wide) in paragraph at lines 100--102
 \T1/cmr/m/n/12 Prima di poter analizzare i progressi svolti nell'ambito del dis
 egno di grafi clusterizzti
  []
@@ -1041,7 +1047,7 @@ egno di grafi clusterizzti
 [8] [9]) [10] (Capitolo2.tex [11
 
 ]
-<figure/nodeLink.png, id=116, 616.3025pt x 192.72pt>
+<figure/nodeLink.png, id=117, 616.3025pt x 192.72pt>
 File: figure/nodeLink.png Graphic file (type png)
 <use figure/nodeLink.png>
 Package pdftex.def Info: figure/nodeLink.png  used on input line 21.
@@ -1053,7 +1059,7 @@ i nodi solo rappresentati
  []
 
 [12]
-<figure/spaceFilling.png, id=120, 659.46375pt x 173.64874pt>
+<figure/spaceFilling.png, id=121, 659.46375pt x 173.64874pt>
 File: figure/spaceFilling.png Graphic file (type png)
 <use figure/spaceFilling.png>
 Package pdftex.def Info: figure/spaceFilling.png  used on input line 29.
@@ -1077,12 +1083,12 @@ male per la rappresentazione
  []
 
 [13 <./figure/nodeLink.png>]
-<figure/layered.png, id=125, 672.5125pt x 271.0125pt>
+<figure/layered.png, id=126, 672.5125pt x 271.0125pt>
 File: figure/layered.png Graphic file (type png)
 <use figure/layered.png>
 Package pdftex.def Info: figure/layered.png  used on input line 38.
 (pdftex.def)             Requested size: 371.30595pt x 149.63213pt.
-<figure/spring.png, id=126, 632.3625pt x 456.70625pt>
+<figure/spring.png, id=127, 632.3625pt x 456.70625pt>
 File: figure/spring.png Graphic file (type png)
 <use figure/spring.png>
 Package pdftex.def Info: figure/spring.png  used on input line 46.
@@ -1113,7 +1119,7 @@ ti esperti è necessario
  []
 
 [16]
-<figure/dom.png, id=140, 688.5725pt x 364.36125pt>
+<figure/dom.png, id=141, 688.5725pt x 364.36125pt>
 File: figure/dom.png Graphic file (type png)
 <use figure/dom.png>
 Package pdftex.def Info: figure/dom.png  used on input line 70.
@@ -1163,12 +1169,12 @@ che sono stati individuati
 [20
 
 ]
-<figure/primaIterazione.png, id=155, 820.06375pt x 434.62375pt>
+<figure/primaIterazione.png, id=156, 820.06375pt x 434.62375pt>
 File: figure/primaIterazione.png Graphic file (type png)
 <use figure/primaIterazione.png>
 Package pdftex.def Info: figure/primaIterazione.png  used on input line 25.
 (pdftex.def)             Requested size: 495.0767pt x 262.38779pt.
-<figure/secondaIterazione.png, id=156, 906.38625pt x 467.7475pt>
+<figure/secondaIterazione.png, id=157, 906.38625pt x 467.7475pt>
 File: figure/secondaIterazione.png Graphic file (type png)
 <use figure/secondaIterazione.png>
 Package pdftex.def Info: figure/secondaIterazione.png  used on input line 34.
@@ -1409,82 +1415,109 @@ File: figure/interfaccia.png Graphic file (type png)
 Package pdftex.def Info: figure/interfaccia.png  used on input line 56.
 (pdftex.def)             Requested size: 412.56497pt x 183.66534pt.
  [41 <./figure/clusterClass.png>] [42 <./figure/interfaccia.png>]
-Overfull \hbox (0.88626pt too wide) in paragraph at lines 67--70
+<figure/viewAlg.png, id=245, 862.22125pt x 416.55624pt>
+File: figure/viewAlg.png Graphic file (type png)
+<use figure/viewAlg.png>
+Package pdftex.def Info: figure/viewAlg.png  used on input line 73.
+(pdftex.def)             Requested size: 412.56497pt x 199.31546pt.
+
+Overfull \hbox (0.88626pt too wide) in paragraph at lines 67--77
 \T1/cmr/m/n/12 monolitica in molteplici oggetti è uno dei traguardi dello svilu
 ppo software. Inoltre
  []
 
-<figure/graphView.png, id=245, 1356.06625pt x 469.755pt>
+
+Overfull \hbox (16.388pt too wide) in paragraph at lines 67--77
+\T1/cmr/m/n/12 riportate nelle sezioni seguenti. Prima di passare all'analisi d
+i queste rappresentazioni
+ []
+
+
+Overfull \hbox (10.52748pt too wide) in paragraph at lines 67--77
+\T1/cmr/m/n/12 confronterà la vista su cui attualmente l'utente lavora con quel
+la richiesta ritornando
+ []
+
+
+Overfull \hbox (25.34177pt too wide) in paragraph at lines 67--77
+\T1/cmr/m/n/12 visualizzazioni che non sono funzionali alle trasformazioni ma c
+he hanno esclusivamente
+ []
+
+<figure/graphView.png, id=246, 1356.06625pt x 469.755pt>
 File: figure/graphView.png Graphic file (type png)
 <use figure/graphView.png>
-Package pdftex.def Info: figure/graphView.png  used on input line 73.
+Package pdftex.def Info: figure/graphView.png  used on input line 86.
 (pdftex.def)             Requested size: 412.56497pt x 142.91309pt.
 
-Overfull \hbox (7.68646pt too wide) in paragraph at lines 77--82
-\T1/cmr/m/n/12 Come si può notare dalla Figura 5.6[] il modello di visualizzazi
+Overfull \hbox (7.68646pt too wide) in paragraph at lines 79--90
+\T1/cmr/m/n/12 Come si può notare dalla Figura 5.7[] il modello di visualizzazi
 one come già accennato
  []
 
-[43 <./figure/graphView.png>]
-<figure/treeView.png, id=250, 1354.05875pt x 594.22pt>
+[43] [44 <./figure/viewAlg.png>]
+<figure/treeView.png, id=255, 1354.05875pt x 594.22pt>
 File: figure/treeView.png Graphic file (type png)
 <use figure/treeView.png>
-Package pdftex.def Info: figure/treeView.png  used on input line 92.
+Package pdftex.def Info: figure/treeView.png  used on input line 100.
 (pdftex.def)             Requested size: 412.56497pt x 181.05096pt.
-
-Overfull \hbox (5.30643pt too wide) in paragraph at lines 84--96
-\T1/cmr/m/n/12 preferibile utilizzare una visualizzazione orizzonante con la ra
-dice centrale a sinistra
- []
-
-[44]
-<figure/consoleView.png, id=255, 1358.07375pt x 478.78876pt>
+ [45 <./figure/graphView.png>]
+<figure/consoleView.png, id=260, 1358.07375pt x 478.78876pt>
 File: figure/consoleView.png Graphic file (type png)
 <use figure/consoleView.png>
-Package pdftex.def Info: figure/consoleView.png  used on input line 99.
+Package pdftex.def Info: figure/consoleView.png  used on input line 110.
 (pdftex.def)             Requested size: 412.56497pt x 145.44954pt.
- [45]
-<figure/clustersOnly.png, id=259, 1362.08875pt x 531.9875pt>
+ [46]
+<figure/clustersOnly.png, id=264, 1362.08875pt x 531.9875pt>
 File: figure/clustersOnly.png Graphic file (type png)
 <use figure/clustersOnly.png>
-Package pdftex.def Info: figure/clustersOnly.png  used on input line 108.
+Package pdftex.def Info: figure/clustersOnly.png  used on input line 119.
 (pdftex.def)             Requested size: 412.56497pt x 161.13168pt.
-<figure/edgesOnly.png, id=260, 1355.0625pt x 596.2275pt>
+<figure/edgesOnly.png, id=265, 1355.0625pt x 596.2275pt>
 File: figure/edgesOnly.png Graphic file (type png)
 <use figure/edgesOnly.png>
-Package pdftex.def Info: figure/edgesOnly.png  used on input line 115.
+Package pdftex.def Info: figure/edgesOnly.png  used on input line 126.
 (pdftex.def)             Requested size: 412.56497pt x 181.52615pt.
-) [46 <./figure/treeView.png> <./figure/consoleView.png>] [47 <./figure/cluster
-sOnly.png> <./figure/edgesOnly.png>] (Capitolo6.tex
+
+Overfull \hbox (7.80817pt too wide) in paragraph at lines 116--130
+\T1/cmr/m/n/12 definito come uno zoom semantico. Si immagini un grafo clusteriz
+zato di dimensioni
+ []
+
+
+Overfull \hbox (8.70012pt too wide) in paragraph at lines 116--130
+\T1/cmr/m/n/12 integrazione passando dalla possibilità di interazione che perme
+tte la trasformazione
+ []
+
+[47 <./figure/treeView.png>] [48 <./figure/consoleView.png>]) [49 <./figure/clu
+stersOnly.png>] [50 <./figure/edgesOnly.png>] (Capitolo6.tex
 Overfull \hbox (13.37521pt too wide) in paragraph at lines 5--6
 []\T1/cmr/bx/n/12 modifica \T1/cmr/m/n/12 di un oggetto, aggiunta di informazio
 ni o sostituzione di un attributo; 
  []
 
-<figure/redraw.png, id=271, 900.36375pt x 407.5225pt>
+<figure/redraw.png, id=283, 900.36375pt x 407.5225pt>
 File: figure/redraw.png Graphic file (type png)
 <use figure/redraw.png>
 Package pdftex.def Info: figure/redraw.png  used on input line 13.
 (pdftex.def)             Requested size: 412.56497pt x 186.73508pt.
-[48
+[51
 
-] [49 <./figure/redraw.png>]
-<figure/springExample.png, id=279, 691.58376pt x 466.74374pt>
+] [52 <./figure/redraw.png>]
+<figure/springExample.png, id=291, 691.58376pt x 466.74374pt>
 File: figure/springExample.png Graphic file (type png)
 <use figure/springExample.png>
 Package pdftex.def Info: figure/springExample.png  used on input line 32.
 (pdftex.def)             Requested size: 412.56497pt x 278.43884pt.
- [50] [51 <./figure/springExample.png>]
-<figure/json.png, id=288, 1010.77625pt x 486.81876pt>
+ [53] [54 <./figure/springExample.png>]
+<figure/json.png, id=299, 1010.77625pt x 486.81876pt>
 File: figure/json.png Graphic file (type png)
 <use figure/json.png>
 Package pdftex.def Info: figure/json.png  used on input line 51.
 (pdftex.def)             Requested size: 412.56497pt x 198.70558pt.
- [52 <./figure/json.png>]
-
-LaTeX Warning: Reference `fig:viewAlg' on page 53 undefined on input line 58.
-
-<figure/erroreArco.png, id=293, 1289.81876pt x 511.9125pt>
+ [55 <./figure/json.png>]
+<figure/erroreArco.png, id=304, 1289.81876pt x 511.9125pt>
 File: figure/erroreArco.png Graphic file (type png)
 <use figure/erroreArco.png>
 Package pdftex.def Info: figure/erroreArco.png  used on input line 63.
@@ -1495,8 +1528,8 @@ Overfull \hbox (7.58658pt too wide) in paragraph at lines 60--68
 i discesa dell'albero
  []
 
-[53] [54 <./figure/erroreArco.png>]
-<figure/archi.png, id=301, 1102.1175pt x 387.4475pt>
+[56] [57 <./figure/erroreArco.png>]
+<figure/archi.png, id=313, 1102.1175pt x 387.4475pt>
 File: figure/archi.png Graphic file (type png)
 <use figure/archi.png>
 Package pdftex.def Info: figure/archi.png  used on input line 75.
@@ -1506,19 +1539,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
 
-[55 <./figure/archi.png>]
-<figure/delete.png, id=306, 1044.90375pt x 432.61626pt>
+[58 <./figure/archi.png>]
+<figure/delete.png, id=318, 1044.90375pt x 432.61626pt>
 File: figure/delete.png Graphic file (type png)
 <use figure/delete.png>
 Package pdftex.def Info: figure/delete.png  used on input line 92.
 (pdftex.def)             Requested size: 330.05322pt x 136.65111pt.
- [56]
-<figure/changeRad.png, id=311, 1359.0775pt x 520.94624pt>
+ [59]
+<figure/changeRad.png, id=322, 1359.0775pt x 520.94624pt>
 File: figure/changeRad.png Graphic file (type png)
 <use figure/changeRad.png>
 Package pdftex.def Info: figure/changeRad.png  used on input line 100.
 (pdftex.def)             Requested size: 330.05322pt x 126.50816pt.
-<figure/changePalette.png, id=312, 1351.0475pt x 533.995pt>
+<figure/changePalette.png, id=323, 1351.0475pt x 533.995pt>
 File: figure/changePalette.png Graphic file (type png)
 <use figure/changePalette.png>
 Package pdftex.def Info: figure/changePalette.png  used on input line 108.
@@ -1529,8 +1562,8 @@ Overfull \hbox (3.28333pt too wide) in paragraph at lines 97--114
 i valori esadecimale
  []
 
-[57 <./figure/delete.png>] [58 <./figure/changeRad.png>]
-<figure/addText.png, id=321, 1348.03625pt x 536.0025pt>
+[60 <./figure/delete.png>] [61 <./figure/changeRad.png>]
+<figure/addText.png, id=332, 1348.03625pt x 536.0025pt>
 File: figure/addText.png Graphic file (type png)
 <use figure/addText.png>
 Package pdftex.def Info: figure/addText.png  used on input line 119.
@@ -1541,8 +1574,8 @@ Overfull \hbox (6.08963pt too wide) in paragraph at lines 115--124
 ata o sarà eliminato. 
  []
 
-[59 <./figure/changePalette.png>] [60 <./figure/addText.png>]
-<figure/navMessage.png, id=330, 1182.4175pt x 500.87125pt>
+[62 <./figure/changePalette.png>] [63 <./figure/addText.png>]
+<figure/navMessage.png, id=342, 1182.4175pt x 500.87125pt>
 File: figure/navMessage.png Graphic file (type png)
 <use figure/navMessage.png>
 Package pdftex.def Info: figure/navMessage.png  used on input line 130.
@@ -1553,8 +1586,8 @@ Overfull \hbox (21.61794pt too wide) in paragraph at lines 125--136
  quanto risulterebbe
  []
 
-[61]
-<figure/zoomGraph.png, id=334, 329.0694pt x 132.495pt>
+[64]
+<figure/zoomGraph.png, id=346, 329.0694pt x 132.495pt>
 File: figure/zoomGraph.png Graphic file (type png)
 <use figure/zoomGraph.png>
 Package pdftex.def Info: figure/zoomGraph.png  used on input line 143.
@@ -1565,10 +1598,112 @@ Overfull \hbox (0.88396pt too wide) in paragraph at lines 140--116
 te sposterà il cursore
  []
 
-[62 <./figure/navMessage.png>] [63 <./figure/zoomGraph.png>] (Capitolo7.tex)
-[64
+[65 <./figure/navMessage.png>] [66 <./figure/zoomGraph.png>] (Capitolo7.tex
+<figure/preFlat.png, id=355, 492.84125pt x 358.33875pt>
+File: figure/preFlat.png Graphic file (type png)
+<use figure/preFlat.png>
+Package pdftex.def Info: figure/preFlat.png  used on input line 6.
+(pdftex.def)             Requested size: 330.05322pt x 239.98729pt.
 
-] (Capitolo8.tex) [65
+[67
+
+]
+Overfull \hbox (5.41289pt too wide) in paragraph at lines 13--17
+\T1/cmr/m/n/12 costruire $\OML/cmm/m/it/12 C[] \OT1/cmr/m/n/12 =\OML/cmm/m/it/1
+2 < G[]; T[] >$ \T1/cmr/m/n/12 come segue ottenendo la rappresentazione mostrat
+a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--17
+
+ []
+
+[68 <./figure/preFlat.png>]
+Overfull \hbox (7.13039pt too wide) in paragraph at lines 18--19
+[]$\OML/cmm/m/it/12 T[]$ \T1/cmr/m/n/12 è ottenuto rimuovendo $\OML/cmm/m/it/12
+ []$\T1/cmr/m/n/12 , attaccando i suoi figli $\OML/cmm/m/it/12 v[]; v[]; :::; 
+v[]$ \T1/cmr/m/n/12 direttamente
+ []
+
+<figure/postFlat.png, id=364, 759.83875pt x 387.4475pt>
+File: figure/postFlat.png Graphic file (type png)
+<use figure/postFlat.png>
+Package pdftex.def Info: figure/postFlat.png  used on input line 22.
+(pdftex.def)             Requested size: 412.56497pt x 210.37135pt.
+<figure/dettaglioCluster.png, id=365, 488.82625pt x 354.32375pt>
+File: figure/dettaglioCluster.png Graphic file (type png)
+<use figure/dettaglioCluster.png>
+Package pdftex.def Info: figure/dettaglioCluster.png  used on input line 29.
+(pdftex.def)             Requested size: 412.56497pt x 299.05183pt.
+<figure/flatSpring.png, id=366, 555.07375pt x 346.29375pt>
+File: figure/flatSpring.png Graphic file (type png)
+<use figure/flatSpring.png>
+Package pdftex.def Info: figure/flatSpring.png  used on input line 36.
+(pdftex.def)             Requested size: 453.82397pt x 283.12782pt.
+
+Overfull \hbox (41.259pt too wide) in paragraph at lines 36--37
+ [] 
+ []
+
+
+Overfull \hbox (9.04257pt too wide) in paragraph at lines 26--42
+\OML/cmm/m/it/12 d \OT1/cmr/m/n/12 = 2$ \T1/cmr/m/n/12 in cui ogni cluster $\OM
+L/cmm/m/it/12 c$ \T1/cmr/m/n/12 è un nodo interno dell'albero ed ogni foglia è 
+rappresentata
+ []
+
+[69] [70 <./figure/postFlat.png>]
+<figure/flatAlg.png, id=374, 687.56876pt x 456.70625pt>
+File: figure/flatAlg.png Graphic file (type png)
+<use figure/flatAlg.png>
+Package pdftex.def Info: figure/flatAlg.png  used on input line 56.
+(pdftex.def)             Requested size: 453.82397pt x 301.44098pt.
+
+Overfull \hbox (41.259pt too wide) in paragraph at lines 56--57
+ [] 
+ []
+
+
+Overfull \hbox (32.05966pt too wide) in paragraph at lines 53--62
+\T1/cmr/m/n/12 Definita e chiarita la riduzione polinomiale ideata dal professo
+r Patrignani dell'università
+ []
+
+
+Overfull \hbox (17.77147pt too wide) in paragraph at lines 53--62
+\T1/cmr/m/n/12 possibilità all'utente di poter tornare alla visualizzazione pre
+cedente la trasformazione
+ []
+
+[71 <./figure/dettaglioCluster.png>] [72 <./figure/flatSpring.png>]
+<figure/esempioTreeRidotto.png, id=383, 1079.03125pt x 597.23125pt>
+File: figure/esempioTreeRidotto.png Graphic file (type png)
+<use figure/esempioTreeRidotto.png>
+Package pdftex.def Info: figure/esempioTreeRidotto.png  used on input line 76.
+(pdftex.def)             Requested size: 412.56497pt x 228.35362pt.
+)
+Overfull \hbox (19.35248pt too wide) in paragraph at lines 68--117
+\T1/cmr/m/n/12 alla creazione del percorso $\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s
+ource; e[]\OT1/cmr/m/n/12 )(\OML/cmm/m/it/12 e[]; e'\OT1/cmr/m/n/12 )(\OML/cmm/
+m/it/12 e[]; target\OT1/cmr/m/n/12 )$ \T1/cmr/m/n/12 Terminate le trasformazion
+i
+ []
+
+
+Overfull \hbox (23.02313pt too wide) in paragraph at lines 68--117
+\T1/cmr/m/n/12 mediante la rappresentazione riportata nella Tree-view come most
+rato nella Figura 7.6[].
+ []
+
+
+Overfull \hbox (8.3737pt too wide) in paragraph at lines 68--117
+\T1/cmr/m/n/12 riduzione saranno visti nel dettaglio nel capitolo successivo in
+ cui verranno utilizzate
+ []
+
+[73 <./figure/flatAlg.png>] [74 <./figure/esempioTreeRidotto.png>] [75]
+(Capitolo8.tex) [76
 
 ] (conclusioni.tex
 Overfull \hbox (17.89784pt too wide) in paragraph at lines 2--3
@@ -1612,12 +1747,12 @@ Overfull \hbox (23.4493pt too wide) in paragraph at lines 6--7
 dei metodi templetizzati
  []
 
-[66
+[77
 
 
-]) [67] (mainTesi.bbl
+]) [78] (mainTesi.bbl
 bibitemlist
-) [68
+) [79
 
 ]
 \tf@toc=\write5
@@ -1629,43 +1764,39 @@ bibitemlist
 \tf@lot=\write7
 \openout7 = `mainTesi.lot'.
 
- (mainTesi.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+ (mainTesi.aux) ) 
 Here is how much of TeX's memory you used:
- 18045 strings out of 494857
- 335039 string characters out of 3178232
- 411593 words of memory out of 3000000
- 21303 multiletter control sequences out of 15000+200000
+ 18086 strings out of 494857
+ 335975 string characters out of 3178232
+ 412121 words of memory out of 3000000
+ 21337 multiletter control sequences out of 15000+200000
  22147 words of font info for 49 fonts, out of 3000000 for 9000
  0 hyphenation exceptions out of 8191
  60i,12n,60p,1720b,423s stack positions out of 5000i,500n,10000p,200000b,50000s
- </home/Jadis/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecti1200
-.pk> </home/Jadis/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbi12
-00.pk> </home/Jadis/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx
-1200.pk> </home/Jadis/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/ec
-bx2074.pk> </home/Jadis/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/
-ecbx1440.pk> </home/Jadis/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi60
-0/ecbx2488.pk> </home/Jadis/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi
-600/ecti1095.pk> </home/Jadis/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/d
-pi600/ecrm1200.pk> </home/Jadis/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec
-/dpi600/ecbx1095.pk> </home/Jadis/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/
-ec/dpi600/ecrm1095.pk> </home/Jadis/.miktex/texmfs/data/fonts/pk/ljfour/jknappe
-n/ec/dpi600/ecrm2488.pk> </home/Jadis/.miktex/texmfs/data/fonts/pk/ljfour/jknap
-pen/ec/dpi600/ecrm1728.pk> </home/Jadis/.miktex/texmfs/data/fonts/pk/ljfour/jkn
-appen/ec/dpi600/ecrm1440.pk></home/Jadis/.miktex/texmfs/install/fonts/type1/pub
-lic/amsfonts/cm/cmmi10.pfb></home/Jadis/.miktex/texmfs/install/fonts/type1/publ
-ic/amsfonts/cm/cmmi12.pfb></home/Jadis/.miktex/texmfs/install/fonts/type1/publi
-c/amsfonts/cm/cmmi8.pfb></home/Jadis/.miktex/texmfs/install/fonts/type1/public/
-amsfonts/cm/cmr12.pfb></home/Jadis/.miktex/texmfs/install/fonts/type1/public/am
-sfonts/cm/cmr8.pfb></home/Jadis/.miktex/texmfs/install/fonts/type1/public/amsfo
-nts/cm/cmsy10.pfb></home/Jadis/.miktex/texmfs/install/fonts/type1/public/amsfon
-ts/cm/cmsy8.pfb>
-Output written on mainTesi.pdf (79 pages, 1671642 bytes).
+ </home/Jadis/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/
+dpi600/ecti1200.pk> </home/Jadis/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/e
+c/dpi600/ecbi1200.pk> </home/Jadis/.miktex/texmfs/data/fonts/pk/ljfour/jknappen
+/ec/dpi600/ecbx1200.pk> </home/Jadis/.miktex/texmfs/data/fonts/pk/ljfour/jknapp
+en/ec/dpi600/ecbx2074.pk> </home/Jadis/.miktex/texmfs/data/fonts/pk/ljfour/jkna
+ppen/ec/dpi600/ecbx1440.pk> </home/Jadis/.miktex/texmfs/data/fonts/pk/ljfour/jk
+nappen/ec/dpi600/ecbx2488.pk> </home/Jadis/.miktex/texmfs/data/fonts/pk/ljfour/
+jknappen/ec/dpi600/ecti1095.pk> </home/Jadis/.miktex/texmfs/data/fonts/pk/ljfou
+r/jknappen/ec/dpi600/ecrm1200.pk> </home/Jadis/.miktex/texmfs/data/fonts/pk/ljf
+our/jknappen/ec/dpi600/ecbx1095.pk> </home/Jadis/.miktex/texmfs/data/fonts/pk/l
+jfour/jknappen/ec/dpi600/ecrm1095.pk> </home/Jadis/.miktex/texmfs/data/fonts/pk
+/ljfour/jknappen/ec/dpi600/ecrm2488.pk> </home/Jadis/.miktex/texmfs/data/fonts/
+pk/ljfour/jknappen/ec/dpi600/ecrm1728.pk> </home/Jadis/.miktex/texmfs/data/font
+s/pk/ljfour/jknappen/ec/dpi600/ecrm1440.pk></home/Jadis/.miktex/texmfs/install/
+fonts/type1/public/amsfonts/cm/cmmi10.pfb></home/Jadis/.miktex/texmfs/install/f
+onts/type1/public/amsfonts/cm/cmmi12.pfb></home/Jadis/.miktex/texmfs/install/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb></home/Jadis/.miktex/texmfs/install/font
+s/type1/public/amsfonts/cm/cmr12.pfb></home/Jadis/.miktex/texmfs/install/fonts/
+type1/public/amsfonts/cm/cmr8.pfb></home/Jadis/.miktex/texmfs/install/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb></home/Jadis/.miktex/texmfs/install/fonts/type
+1/public/amsfonts/cm/cmsy8.pfb>
+Output written on mainTesi.pdf (90 pages, 1909520 bytes).
 PDF statistics:
- 947 PDF objects out of 1000 (max. 8388607)
+ 996 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 198 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 233 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -26,23 +26,30 @@
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Oggetto arco dell'undelying graph}}{40}% 
 \contentsline {figure}{\numberline {5.4}{\ignorespaces Oggetto cluster dell'inclusion Tree}}{41}% 
 \contentsline {figure}{\numberline {5.5}{\ignorespaces Log-in nel sistema}}{42}% 
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Graph View}}{43}% 
-\contentsline {figure}{\numberline {5.7}{\ignorespaces tree View}}{46}% 
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Graph View}}{46}% 
-\contentsline {figure}{\numberline {5.9}{\ignorespaces visualizzazione dei soli cluster}}{47}% 
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Visualizzazione dei soli archi}}{47}% 
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Struttura dell'algoritmo dell'operazione di encode}}{44}% 
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Graph View}}{45}% 
+\contentsline {figure}{\numberline {5.8}{\ignorespaces tree View}}{47}% 
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Graph View}}{48}% 
+\contentsline {figure}{\numberline {5.10}{\ignorespaces visualizzazione dei soli cluster}}{49}% 
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Visualizzazione dei soli archi}}{50}% 
 \addvspace {10pt}
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Schema dell'impiego della funzione di disegno dei dati }}{49}% 
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Esempio delle forze attrattive e repulsive utilizzate in fase di disegno }}{51}% 
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Esempio di file json per l'import di un grafo clusterizzato }}{52}% 
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Messaggio di errore per il tentativo di creazione di un arco senza due nodi}}{54}% 
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Esempio di planarit\IeC {\`a} nella rappresentazione di un grafo clusterizzato}}{55}% 
-\contentsline {figure}{\numberline {6.6}{\ignorespaces algoritmo di cancellazione di un oggetto}}{57}% 
-\contentsline {figure}{\numberline {6.7}{\ignorespaces operazione di cambiamento del raggio dei cluster da parte dell'utente}}{58}% 
-\contentsline {figure}{\numberline {6.8}{\ignorespaces impiego di Palette diverse da quella di default da parte dell'utente}}{59}% 
-\contentsline {figure}{\numberline {6.9}{\ignorespaces aggiunta di commenti da parte dell'utente}}{60}% 
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Messaggio di aiuto al primo accesso dell'utente alla navigate-view}}{62}% 
-\contentsline {figure}{\numberline {6.11}{\ignorespaces zooming di un grafo nella navigate-view}}{63}% 
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Schema dell'impiego della funzione di disegno dei dati }}{52}% 
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Esempio delle forze attrattive e repulsive utilizzate in fase di disegno }}{54}% 
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Esempio di file json per l'import di un grafo clusterizzato }}{55}% 
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Messaggio di errore per il tentativo di creazione di un arco senza due nodi}}{57}% 
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Esempio di planarit\IeC {\`a} nella rappresentazione di un grafo clusterizzato}}{58}% 
+\contentsline {figure}{\numberline {6.6}{\ignorespaces algoritmo di cancellazione di un oggetto}}{60}% 
+\contentsline {figure}{\numberline {6.7}{\ignorespaces operazione di cambiamento del raggio dei cluster da parte dell'utente}}{61}% 
+\contentsline {figure}{\numberline {6.8}{\ignorespaces impiego di Palette diverse da quella di default da parte dell'utente}}{62}% 
+\contentsline {figure}{\numberline {6.9}{\ignorespaces aggiunta di commenti da parte dell'utente}}{63}% 
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Messaggio di aiuto al primo accesso dell'utente alla navigate-view}}{65}% 
+\contentsline {figure}{\numberline {6.11}{\ignorespaces zooming di un grafo nella navigate-view}}{66}% 
 \addvspace {10pt}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces $C_i$ con albero di inclusione $T$ omogeneo }}{68}% 
+\contentsline {figure}{\numberline {7.2}{\ignorespaces $C_{i+1}$ ottenuto dopo parte del processo di riduzione }}{70}% 
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Dettaglio del cluster $\mu ^*$ con rappresentazione Spring-enbedding }}{71}% 
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Cluster $\mu ^*$ dopo la riduzione con rappresentazione semi Spring-enbedding }}{72}% 
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Struttura semplificata dell'algoritmo di flattizzazione }}{73}% 
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Esempio della riduzione di un grafo clusterizzato nella Tree-View }}{74}% 
 \addvspace {10pt}
 \addvspace {10pt}
