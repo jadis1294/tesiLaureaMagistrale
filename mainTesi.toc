@@ -2,10 +2,10 @@
 \babel@toc {italian}{}
 \contentsline {chapter}{Indice}{iii}% 
 \contentsline {chapter}{Elenco delle figure}{vi}% 
-\contentsline {chapter}{Elenco delle tabelle}{viii}% 
-\contentsline {chapter}{Introduzione}{ix}% 
-\contentsline {section}{Ringraziamenti}{ix}% 
-\contentsline {section}{Premessa}{x}% 
+\contentsline {chapter}{Elenco delle tabelle}{ix}% 
+\contentsline {chapter}{Introduzione}{x}% 
+\contentsline {section}{Ringraziamenti}{x}% 
+\contentsline {section}{Premessa}{xi}% 
 \contentsline {chapter}{\chapternumberline {1}Stato dell'arte}{1}% 
 \contentsline {section}{\numberline {1.1}Definizioni preliminari}{1}% 
 \contentsline {subsection}{\numberline {1.1.1}Grafi}{1}% 
@@ -13,7 +13,7 @@
 \contentsline {section}{\numberline {1.2}C-Graph}{6}% 
 \contentsline {subsection}{\numberline {1.2.1}clustered planarity}{7}% 
 \contentsline {subsection}{\numberline {1.2.2}flat clustered planarity}{9}% 
-\contentsline {chapter}{\chapternumberline {2}Tecnologie e metodologie}{11}% 
+\contentsline {chapter}{\chapternumberline {2}Strumenti e metodologie}{11}% 
 \contentsline {section}{\numberline {2.1}Visualizzazione delle informazioni}{11}% 
 \contentsline {subsection}{\numberline {2.1.1}rappresentazione inclusion-Tree}{12}% 
 \contentsline {subsection}{\numberline {2.1.2}rappresentazione underlying Graph}{14}% 
@@ -21,14 +21,14 @@
 \contentsline {subsection}{\numberline {2.2.1}Javascript}{16}% 
 \contentsline {subsection}{\numberline {2.2.2}D3.js}{17}% 
 \contentsline {section}{\numberline {2.3}Oggetti per la struttura dati}{18}% 
-\contentsline {chapter}{\chapternumberline {3}Obiettivi e scelte progettuali}{20}% 
-\contentsline {section}{\numberline {3.1}Obiettivi}{20}% 
-\contentsline {section}{\numberline {3.2}Analisi dei requisiti e scelte progettuali}{21}% 
-\contentsline {section}{\numberline {3.3}Principi per la visualizzazione}{25}% 
-\contentsline {chapter}{\chapternumberline {4}Primitive di interazione}{27}% 
-\contentsline {section}{\numberline {4.1}definizioni dell'interazione}{27}% 
-\contentsline {section}{\numberline {4.2}classificazione}{29}% 
-\contentsline {section}{\numberline {4.3}modalit\IeC {\`a} di interazione scelte e motivazioni}{31}% 
+\contentsline {chapter}{\chapternumberline {3}Editor e primitive di interazione}{20}% 
+\contentsline {section}{\numberline {3.1}definizioni dell'interazione}{20}% 
+\contentsline {section}{\numberline {3.2}classificazione}{22}% 
+\contentsline {section}{\numberline {3.3}modalit\IeC {\`a} di interazione scelte e motivazioni}{24}% 
+\contentsline {chapter}{\chapternumberline {4}Analisi degli obiettivi e scelte progettuali}{30}% 
+\contentsline {section}{\numberline {4.1}Principi per la visualizzazione}{30}% 
+\contentsline {section}{\numberline {4.2}Obiettivi}{32}% 
+\contentsline {section}{\numberline {4.3}Analisi dei requisiti e scelte progettuali}{33}% 
 \contentsline {chapter}{\chapternumberline {5}Interfacce e struttura dati}{37}% 
 \contentsline {section}{\numberline {5.1}Struttura dati}{37}% 
 \contentsline {section}{\numberline {5.2}Log-in ed inizializzazione}{41}% 
@@ -36,7 +36,7 @@
 \contentsline {section}{\numberline {5.4}Tree-view}{45}% 
 \contentsline {section}{\numberline {5.5}Console-view}{46}% 
 \contentsline {section}{\numberline {5.6}Filtraggio degli oggetti}{48}% 
-\contentsline {chapter}{\chapternumberline {6}Funzioni utente}{51}% 
+\contentsline {chapter}{\chapternumberline {6}Funzionalit\IeC {\`a} utente}{51}% 
 \contentsline {section}{\numberline {6.1}disegno dei dati}{52}% 
 \contentsline {section}{\numberline {6.2}creazione}{53}% 
 \contentsline {subsection}{\numberline {6.2.1}import/export}{53}% 
@@ -51,7 +51,7 @@
 \contentsline {section}{\numberline {7.1}metodo}{67}% 
 \contentsline {section}{\numberline {7.2}algoritmo}{71}% 
 \contentsline {chapter}{\chapternumberline {8}Esempi reali di utilizzo}{76}% 
-\contentsline {section}{\numberline {8.1}Quadtree e Octree}{76}% 
-\contentsline {subsection}{\numberline {8.1.1}Definizione delle strutture}{76}% 
-\contentsline {chapter}{Conclusioni e sviluppi futuri}{77}% 
-\contentsline {chapter}{Bibliografia}{79}% 
+\contentsline {section}{\numberline {8.1}Creazione e modifica}{76}% 
+\contentsline {section}{\numberline {8.2}Riduzione e ripresa del grafo}{80}% 
+\contentsline {chapter}{Conclusioni e sviluppi futuri}{82}% 
+\contentsline {chapter}{Bibliografia}{85}% 

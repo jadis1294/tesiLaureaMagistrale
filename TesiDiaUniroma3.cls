@@ -16,7 +16,6 @@
 \RequirePackage{graphicx}
 % Line spacing
 \RequirePackage{setspace}
-
 % pacchetti per i font
 \usepackage[T1]{fontenc}
 % interlinea

@@ -1,6 +1,22 @@
 \large{
 In questo capitolo, dopo aver preso nota delle tecnologie e metodologie utilizzate e descritte nel \textit{Capitolo 2} ,si vedrà più in dettaglio lo studio dei requisiti e dei problemi risolti nel lavoro svolto,prima di passare alla descrizione della progettazione dell'applicativo.
+\section{Principi per la visualizzazione} 
+Avendo definito nel capitolo precedente la visualizzazione delle informazioni è necessario, per comprendere gli obiettivi, evidenziare i principi per una visualizzazione corretta e soprattutto il modello di progettazione.
+\textbf{Tamara Macushla Munzner} propone un modello per la visualizzazione orientato al task model composto da 4 fasi:
+\begin{itemize}
+	\item \textbf{Dominio:} identificazione del problema e del dominio di interesse
+	\item \textbf{Astrazione dei dati:} si modellano i dati che dovranno essere rappresentati
+	\item \textbf{idioma di codifica:} si decide come visualizzare i dati e quali interazione implementare all'interfaccia;
+	\item \textbf{Algoritmo}
+\end{itemize}
 
+Tra tutte questi principi del modello di Munzner inoltre esiste un rapporto di inclusione in cui la parte più esterna contraddistinta dal dominio a una più interna esiste un rapporto di molteplicità.
+In altre parole diversi idiomi possono corrispondere alla stessa astrazione e diverse astrazioni possono corrispondere allo stesso Dominio.
+Per il progetto sono stati di grande importanza i principi di Munzner e sono stati applicati con un approccio \textbf{Top-Down}, ovvero guidato dal problema e risolto dal dominio fino all'algoritmo applicando le scelte progettuali suddette.
+Per quanto riguarda invece le scelte di progetto, quali ad esempio se utilizzare colori nell'interfaccia o meno, se lasciare molti spazi bianchi o utilizzare molta grafica o se utilizzare la terza dimensione o meno, anche esse sono state decise partendo dai principi chiave e di Munzner spesso in contrapposizione con quelle di Edward Rolf Tufte.\\
+Per concludere la digressione sui principi della visualizzazione è importante anche definire il concetto di \textbf{User Task} come scopo dell'utente ovvero cosa l'utente deve poter fare sui dati.
+Nella visualizzazione delle informazioni ci sono due principali tipi di scopi: (i)Presentazione, contesto in cui si conosce l'informazione e la visualizzazione è tesa a rappresentarla e (ii) Analisi, contesto in cui la visualizzazione è tesa all'estrazione delle informazioni dei dati rappresentati.
+Per quanto concerne il progetto in questione la scelta progettuale su cui si basa è sia di presentazione che di analisi proprio per poter lasciare all'utente la possibilità di visualizzare dati senza modificarne i valori ma anche di cambiare i dati e analizzarne contenuto supportando la ricerca mediante l'automatismo delle operazioni.
 \section{Obiettivi}
 Gli obiettivi inizialmente pensati per essere realizzati durante lo svolgimento del lavoro,erano quelli di poter realizzare il primo editor in grado di:
 \begin{itemize}
@@ -51,22 +67,4 @@ pubblicato nel 2001 da Kent Beck, Robert C. Martin e Martin Fowler in cui si spe
 \end{center}
 
 Fra le pratiche promosse dai metodi agili si trovano: la formazione di team di sviluppo piccoli, poli-funzionali e auto-organizzati, lo sviluppo iterativo e incrementale, la pianificazione adattiva, e il coinvolgimento diretto e continuo del cliente nel processo di sviluppo.
-
-\section{Principi per la visualizzazione} 
-Avendo definito nel capitolo precedente la visualizzazione delle informazioni è necessario, per comprendere gli obiettivi, evidenziare i principi per una visualizzazione corretta e soprattutto il modello di progettazione.
-\textbf{Tamara Macushla Munzner} propone un modello per la visualizzazione orientato al task model composto da 4 fasi:
-\begin{itemize}
-	\item \textbf{Dominio:} identificazione del problema e del dominio di interesse
-	\item \textbf{Astrazione dei dati:} si modellano i dati che dovranno essere rappresentati
-	\item \textbf{idioma di codifica:} si decide come visualizzare i dati e quali interazione implementare all'interfaccia;
-	\item \textbf{Algoritmo}
-\end{itemize}
-
-Tra tutte questi principi del modello di Munzner inoltre esiste un rapporto di inclusione in cui la parte più esterna contraddistinta dal dominio a una più interna esiste un rapporto di molteplicità.
-In altre parole diversi idiomi possono corrispondere alla stessa astrazione e diverse astrazioni possono corrispondere allo stesso Dominio.
-Per il progetto sono stati di grande importanza i principi di Munzner e sono stati applicati con un approccio \textbf{Top-Down}, ovvero guidato dal problema e risolto dal dominio fino all'algoritmo applicando le scelte progettuali suddette.
-Per quanto riguarda invece le scelte di progetto, quali ad esempio se utilizzare colori nell'interfaccia o meno, se lasciare molti spazi bianchi o utilizzare molta grafica o se utilizzare la terza dimensione o meno, anche esse sono state decise partendo dai principi chiave e di Munzner spesso in contrapposizione con quelle di Edward Rolf Tufte.\\
-Per concludere la digressione sui principi della visualizzazione è importante anche definire il concetto di \textbf{User Task} come scopo dell'utente ovvero cosa l'utente deve poter fare sui dati.
-Nella visualizzazione delle informazioni ci sono due principali tipi di scopi: (i)Presentazione, contesto in cui si conosce l'informazione e la visualizzazione è tesa a rappresentarla e (ii) Analisi, contesto in cui la visualizzazione è tesa all'estrazione delle informazioni dei dati rappresentati.
-Per quanto concerne il progetto in questione la scelta progettuale su cui si basa è sia di presentazione che di analisi proprio per poter lasciare all'utente la possibilità di visualizzare dati senza modificarne i valori ma anche di cambiare i dati e analizzarne contenuto supportando la ricerca mediante l'automatismo delle operazioni.
 }

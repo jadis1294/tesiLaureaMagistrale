@@ -14,12 +14,12 @@
 \contentsline {figure}{\numberline {2.4}{\ignorespaces rappresentazione Spring Embedding}}{15}% 
 \contentsline {figure}{\numberline {2.5}{\ignorespaces rappresentazioni Space-filling}}{19}% 
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Prima iterazione degli oggetti di dominio}}{22}% 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Seconda iterazione degli oggetti di dominio}}{23}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Operazione di zooming su un piano $<x,y>$}}{25}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Operazioni di panning e zooming su un piano $<x,y>$}}{27}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Esempio di encoding da un diagramma a torta ad uno a barre}}{28}% 
 \addvspace {10pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Operazione di zooming su un piano $<x,y>$}}{32}% 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Operazioni di panning e zooming su un piano $<x,y>$}}{34}% 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Esempio di encoding da un diagramma a torta ad uno a barre}}{35}% 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Prima iterazione degli oggetti di dominio}}{33}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Seconda iterazione degli oggetti di dominio}}{34}% 
 \addvspace {10pt}
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Oggetto clusteredGraph}}{38}% 
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Oggetto nodo del underlying graph}}{39}% 
@@ -52,4 +52,12 @@
 \contentsline {figure}{\numberline {7.5}{\ignorespaces Struttura semplificata dell'algoritmo di flattizzazione }}{73}% 
 \contentsline {figure}{\numberline {7.6}{\ignorespaces Esempio della riduzione di un grafo clusterizzato nella Tree-View }}{74}% 
 \addvspace {10pt}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces cluster prima e dopo l'inserimento di sotto-cluster }}{76}% 
+\contentsline {figure}{\numberline {8.2}{\ignorespaces visualizzazione del grafo rappresentato nelle due visualizzazioni }}{77}% 
+\contentsline {figure}{\numberline {8.3}{\ignorespaces rimozione o aggiunta di un testo su un cluster}}{78}% 
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Json riferito al salvataggio della struttura del caso di studio}}{79}% 
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Visione nella treeView dell'istanza flat del grafo clusterizzato}}{80}% 
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Visione nella graphView dell'istanza flat del grafo clusterizzato}}{81}% 
 \addvspace {10pt}
+\contentsline {figure}{\numberline {1}{\ignorespaces creazione di un disegno c-planare Pipe partendo da un disegno c-planare Flat }}{83}% 
+\contentsline {figure}{\numberline {2}{\ignorespaces Dettaglio di un cluster in c-planare Pipe ed in c-planare Flat }}{84}% 
