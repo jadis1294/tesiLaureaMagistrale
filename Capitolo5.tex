@@ -1,131 +1,40 @@
 \large{
-\section{Struttura dati}
-Prima ancora di mostrare l'interfaccia e le scelte progettuali applicate è necessario definire con chiarezza la struttura dati con cui l'utente andrà a lavorare ricordando infatti che una visualizzazione per buona che sia non ha valore senza la possibilità di analisi del dato di cui ne è la rappresentazione.
-Ritornando al capitolo relativo allo stato dell'arte, si è definito un grafo clusterizzato $C$ come una coppia $<G,T>$ in cui $G$ è l'underlying graph definito dalla coppia $<V,E>$ rispettivamente di nodi ed archi e $T$ è l'inclusion tree. Alla base di questo e seguendo quanto detto nel capitolo due relativo agli oggetti scelti per la struttura dati, vi è la rappresentazione del grafo clusterizzato così come mostrato nella figura \figurename~\ref{fig:cgraphClass}. Un oggetto \textit{clusteredGraph} è definito mediante un oggetto relativo all'underlying graph ed uno relativo all'inclusion tree.\\
-Come si nota un oggetto \textit{UnderlyingGraph} è definito mediante una primitiva String che ne rappresenta l'etichetta e mediante due oggetti Map: Map<number,Node> in cui sono elencati tutti i nodi di cui è composto il grafo e Map<number,Edge> per gli archi. 
+Prima di cominciare a trattare delle primitive di interazione utente relative ai grafi clusterizzati è necessaria una digressione sulle possibilità di rappresentazione. Saranno dunque trattate separatamente la rappresentazione dell'albero di inclusione e del grafo sottostante.
+\section{Rappresentazione Inclusion Tree}
+Per quanto concerne la rappresentazione dell'albero di inclusione, sono già state ampiamente anticipate e discusse le possibili visualizzazioni che possono essere impiegate.\\
+Essendo però la visualizzazione Spacequest'ultima di difficile lettura e soprattutto non ottimale per la rappresentazione di un albero collegato ad un grafo si consiglia di optare per la strategia Node-link scegliendo la rappresentazione "layered drawing",di cui ne è un esempio la \figurename{layered},in cui i nodi sono organizzati in livelli e per ogni nodo la coordinata y dipende dal livello mentre la coordinata x deve esser trovata e dipende dal numero di figli del livello e dello spazio orizzontale a disposizione per la rappresentazione.essendo un albero radicato essendoci un rapporto padre-figlio non binario ci sono due possibili strategie: node-link e space-filling.
+Nella strategia node-link i nodi solo rappresentati come dei punti mentre i link ovvero i collegamenti,gli archi, sono raffigurati come linee. A seconda poi della rappresentazione Node-link scelta si possono avere diverse organizzazione ne è un esempio della rappresentazione HV drawing la stessa della \textbf{\figurename~\ref{fig:nodeLink}} in cui gli archi possono essere solamente orizzontali e verticali e che risulta essere molto utile per la rappresentazione di circuiti elettronici.
 \begin{figure}[!htb]
 	\begin{center}
-		\includegraphics[width=1 \linewidth]{figure/cgraphClass}
+		\includegraphics[width=0.8 \linewidth]{figure/nodeLink}
 	\end{center}
-	\caption{Oggetto clusteredGraph\label{fig:cgraphClass}}
-\end{figure}
-Andando poi a ritroso nelle definizioni, nella figura \figurename~\ref{fig:nodeClass} è mostrato l'oggetto Nodo. Esso può essere definito mediante un costruttore di tre valori:
-\begin{itemize}
-	\item \textbf{label} di tipo primitivo String che ne definisce l'etichetta;
-	\item \textbf{id} un numero, identificativo insieme alla sua etichetta ma ancor più personale, del nodo in questione;
-	\item \textbf{rotationScheme} di tipo Set<number> in cui vengono salvati tutti gli ID degli archi che hanno quel nodo come nodo di partenza o di destinazione.
-\end{itemize}
-Ogni nodo è un elemento fondamentale dell'underlying graph da visualizzare e connettere.
-\begin{figure}[!htb]
-	\begin{center}
-		\includegraphics[width=1 \linewidth]{figure/nodeClass}
-	\end{center}
-	\caption{Oggetto nodo del underlying graph\label{fig:nodeClass}}
-\end{figure}
-Restando sempre nella creazione dell'oggetto \textit{UnderlyingGraph} del grafo clusterizzato risulta, esattamente come per l'oggetto \textit{node}, necessario fornire la definizione dell'oggetto relativo agli archi.
-La classe dell'oggetto \textit{Edge} rappresentata in \figurename~\ref{fig:edgeClass} è definita mediante una stringa e tre valori numerici. La prima si riferisce all'etichetta dell'arco e non necessariamente dovrà essere unica, i valori numerici invece fanno riferimento all'id dell'arco, necessario non solo per unificare l'arco creato ma anche per essere inserito nel Set<number> \textit{rotationScheme} del nodo che lo vedrà collegato. Ogni arco collegherà poi un nodo di inizio fino ad un nodo di arrivo anche se non in maniera orientata, in quanto il nodo di inizio e il nodo di fine arco saranno solamente quelli relativi a dove l'utente vorrà che la visualizzazione dell'arco inizi e finisca. Per questo ogni elemento della classe arco avrà due valori numerici \textit{source} che conterrà l'id del nodo di partenza e \textit{target} con l'id del nodo di destinaione. 
-\begin{figure}[!htb]
-	\begin{center}
-		\includegraphics[width=1 \linewidth]{figure/edgeClass}
-	\end{center}
-	\caption{Oggetto arco dell'undelying graph\label{fig:edgeClass}}
+	\caption{rappresentazione node-link HW drawing di un albero \label{fig:nodeLink}}
 \end{figure}
 
-Termina la definizione della classe \textit{UnderlyingGraph} si può passare a quella della classe \textit{InclusionTree}. Ogni oggetto appartenente a questa classe possiede una etichetta definita come tipo String, esattamente come per la sua controparte grafo, e una lista contenente i cluster che fanno parte dell'albero di inclusione, di tipo Map<number,Cluster>.
-Andando a ritroso anche in questa struttura si vuol definire di seguito la classe \textit{Cluster}.
-Un oggetto \textit{cluster} come mostrato nella figura \figurename~\ref{fig:clusterClass} è definito mediante un costruttore con cinque attributi di seguito riportati:
-\begin{itemize}
-	\item \textbf{label} di tipo String che ne rappresenta l'etichetta;
-	\item \textbf{level} di tipo number, definisce il livello ovvero la profondità a cui il cluster si troverà all'interno dell'albero di inclusione;
-	\item \textbf{cildren} di tipo Set<number> e che contiene gli id dei cluster di profondità superiore collegati con il cluster di interesse, ovvero i suoi figli;
-	\item \textbf{parents} di tipo Set<number> contenente gli id dei cluster di profondità inferiore e che sono collegati al cluster di interesse, ovvero i suoi genitori;
-	\item \textbf{nodes} di tipo Set<number> contenente gli id dei nodi che sono contenuti all'interno del cluster
-\end{itemize}
+Nella strategia Space-filling si tenta invece di superare i limiti del Node-link che riguardano la gestione non ottimale dello spazio orizzontale in quanto la parte alta della rappresentazione solitamente risulta essere poco densa di informazioni al contrario di quella bassa. Nella strategia Space-filling forme geometriche, solitamente rettangolari, rappresentano i nodi e i figli sono rappresentati da altre forme geometriche inserite all'interno del padre anche se anche questa rappresentazione presenta svariati problemi tra cui la distinzione difficile di tagli orizzontali da quelli verticali o la gestione non ottimale di alberi di grande profondità. Nella \textbf{\figurename~\ref{fig:spaceFilling}} sono mostrate alcune rappresentazioni diverse che seguono la strategia Space-filling.
+\begin{figure}[!htb]
+	\begin{center}
+		\includegraphics[width=0.9 \linewidth]{figure/spaceFilling}
+	\end{center}
+	\caption{rappresentazioni Space-filling\label{fig:spaceFilling}}
+\end{figure}
+\newline
+Essendo quest'ultima di difficile lettura e soprattutto non ottimale per la rappresentazione di un albero collegato ad un grafo si consiglia di optare per la strategia Node-link scegliendo la rappresentazione "layered drawing",di cui ne è un esempio la \figurename{layered},in cui i nodi sono organizzati in livelli e per ogni nodo la coordinata y dipende dal livello mentre la coordinata x deve esser trovata e dipende dal numero di figli del livello e dello spazio orizzontale a disposizione per la rappresentazione.
 
 \begin{figure}[!htb]
 	\begin{center}
-		\includegraphics[width=1 \linewidth]{figure/clusterClass}
+		\includegraphics[width=0.9 \linewidth]{figure/layered}
 	\end{center}
-	\caption{Oggetto cluster dell'inclusion Tree\label{fig:clusterClass}}
+	\caption{rappresentazione node-Link layered Drawing\label{fig:layered}}
 \end{figure}
-
-\section{Log-in ed inizializzazione}
-Al momento del log-in iniziale l'utente si troverà la schermata mostrata nella \figurename~\ref{fig:interfaccia}. Come è possibile notare da subito sono stati utilizzati molti dei principi di visualizzazione visti in precedenza cominciando dall'impiego e della posizione dei bottoni necessari per le interazioni dell'utente. È stato lasciando poi grande spazio per quanto concerne il piano di lavoro principale che come si vedrà successivamente rimarrà inalterato anche cambiando l'interfaccia utilizzata. Anchel'impiego di colori caldi quale il blu rispetto al piano di lavoro di colore chiaro lascia intendere la maggiore importanza ed evidenza che deve avere il secondo rispetto al resto dell'interfaccia. Ogni qualvolta l'utente vorrà interagire con il sistema sarà sufficiente cliccare una delle operazioni, che saranno viste nel capitolo successivo, per poter avere una risposta.
-\begin{figure}[!htb]
-\begin{center}
-	\includegraphics[width=1 \linewidth]{figure/interfaccia}
-\end{center}
-\caption{Log-in nel sistema\label{fig:interfaccia}}
-\end{figure}
-Come già accennato sarà possibile per l'utente interagire con il sistema per poter effettuare operazioni di encoding dei dati. Ogni qualvolta verrà richiesto al sistema di eseguire il log-in iniziale oppure un encode della visualizzazione il sistema risponderà con una inizializzazione. Durante la prima inzializzazione in cui sarà creata la classe \textit{clusteredGraph} e tuo ciò che ne comprende e sarà generato l'svg \#cgraph su cui si basa il piano di lavoro e con cui l'utente andrà ad interagire ed analizzare. Tutte le operazioni e le visualizzazioni saranno eseguite proprio su questo svg creato con l'ausilio della libreria grafica\textbf{ D3.js}.\\
-Generato l'svg principale, sempre durante l'inizializzazione del log-iin esso verrà collegato ad altri tre oggetti svg di seguito elencati e che lo compongono:
-\begin{itemize}
-	\item \textbf{\#c\_cluster} che andrà a rappresentare la visualizzazione di tutti i cluster; 
-	\item \textbf{\#c\_node} ovvero l'svg che rappresenta l'insieme dei nodi da visualizzare;
-	\item \textbf{\#c\_edge} che rappresenterà gli archi che collegano i nodi dell'underlying graph.
-\end{itemize}
-La divisione degli svg che andranno a comporre quello relativo al piano di lavoro è necessaria per molteplici fattori, primo fra tutti il poter scindere una entità monolitica in molteplici oggetti è uno dei traguardi dello sviluppo software. Inoltre è possibile in questo modo poter trattare, come sarà analizzato meglio in seguito, le tre entità che rappresentano la classe \textit{ClusteredGraph} come oggetti a se stanti.\\
-Una volta che l'utente ha avuto accesso al sistema ed è stato introdotto il concetto di svg e di piano di lavoro è possibile cominciare a definire quello di interfacce e di piani di lavoro diversi.
-In particolare il sistema essendo basato su una coppia $<G,T>$ che compongono il grafo clusterizzato $G$ si è deciso di implementare la funzione di encode dando all'utente la possibilità di scelta tra due viste separate riportate nelle sezioni seguenti. Prima di passare all'analisi di queste rappresentazioni è bene anticipare la struttura dell'algoritmo, mostrato nella \figurename~\ref{fig:viewAlg},che il sistema andrà ad eseguire ogni volta l'utente chiederà mediante una interazione l'operazione di encode dei dati. Ad ogni richiesta sopra descritta il sistema confronterà la vista su cui attualmente l'utente lavora con quella richiesta ritornando nel caso in cui le due viste siano uguali ed eliminando la vista visualizzata e creano quella richiesta nel caso contrario.\\
-La strategia scelta dell'eliminare e ricreare un oggetto si sposa bene con i principi per la visualizzazione visti in precedenza. In questo modo l'utente andrà ad interfacciarsi con una unica visualizzazione alla volta ed il piano di lavoro resterà libero evitando ogni volta di dimezzare la grandezza dello stesso per far posto a visualizzazioni che non sono funzionali alle trasformazioni ma che hanno esclusivamente scopi di analisi.
+\section{rappresentazione underlying Graph}
+Avendo discusso della rappresentazione dell'inclusion Tree è necessaria la stessa attenzione per la rappresentazione dell'Underlying graph.  Essendo un albero un grafo orientato senza cicli i modelli di rappresentazione sono gli stessi visti per gli alberi. Il modello utilizzato è il \textbf{Force directed}, modello principale utilizzato per la visualizzazione di grafi che utilizza una rappresentazione Node-link, che fa in modo di emulare il sistema fisico formato da cariche elettriche rappresentate dai nodi e da molle rappresentati dagli archi. L'idea alla base del modello è quella che il raggiungimento di una condizione di equilibro corrisponda ad una rappresentazione grafica gradevole. ogni rappresentazione di un grafo è dunque formata da due componenti: il \textbf{modello} che descrive le forze in gioco e l'\textbf{algoritmo} ovvero la tecnica che permette di stabilire il punto di equilibrio accettabile. Ne esistono diverse varianti del modello Force directed e la scelta per quanto concerne il progetto in questone è ricaduta sul modello Spring Embedding, basato sulla combinazione di forze elettriche e forze meccaniche che andrà a formare una rappresentazione simile a quella mostrata nella \textbf{\figurename~\ref{fig:spring}}   
 \begin{figure}[!htb]
 	\begin{center}
-		\includegraphics[width=1 \linewidth]{figure/viewAlg}
+		\includegraphics[width=0.8 \linewidth]{figure/spring}
 	\end{center}
-	\caption{Struttura dell'algoritmo dell'operazione di encode\label{fig:viewAlg}}
+	\caption{rappresentazione Spring Embedding\label{fig:spring}}
 \end{figure}
-
-\section{Graph-view}
-La visualizzazione a grafo, anche definita graph-view è la visualizzazione di default ed è anche quella con cui l'utente si interfaccerà maggiormente. La graph-view è infatti l'unica vista con cui l'utente può avere una iterazione di grado tre, ovvero il grado massimo, in cui può interagire sulle modifiche e le trasformazioni non solo riguardo la visualizzazione ma anche sui dati.\\
-Come si può notare dalla \figurename~\ref{fig:graphView} il modello di visualizzazione come già accennato riprende quello Node-link in cui "Node" rappresenta non solo i nodi del grafo ma anche i cluster dell'albero di inclusione. La differenza tra queste due entità a livello di visualizzazione può essere vista mediante due diversi fattori: il colore ed il raggio.
-Per quanto riguarda il colore dei nodi esso risulta fisso in quanto ogni nodo rappresenterà sempre lo stesso elemento che cambierà per quanto riguarda la posizione o il cluster di appartenenza ma non nella sostanza. Anche il raggio del nodo, che verrà definito $r_n$, ha un valore fisso non dipendente da nessuna variabile.
-Per quanto riguarda i cluster invece il colore, che di default presenta una casualità nella propria visualizzazione, varia per ogni cluster definendo una ulteriore variabile che ne definisce l'unicità.
-Il raggio dei cluster definito $r_c$, al contrario di quello dei nodi che come abbiamo visto è fisso esso è dipendente da variabili come sarà visto nel dettaglio ne capitolo successivo.
-\begin{figure}[!htb]
-	\begin{center}
-		\includegraphics[width=1 \linewidth]{figure/graphView}
-	\end{center}
-	\caption{Graph View\label{fig:graphView}}
-\end{figure}
-
-\section{Tree-view}
-Non avendo un limite al numero di nodi e di cluster visualizzabili la graph view può ad un primo impatto portare a visualizzare un gran numero di informazioni. È facile intuire come l'occhio umano veda una rappresentazione organizzata in maniera notevolmente migliore rispetto ad una piatta e prima di profondità anche se fittizia. Per questo l'utente in qualunque momento durante una sessione di lavoro potrà interagire con il sistema e passare da una visualizzazione a grafo clusterizzato ad una dell'inclusion tree in cui però saranno rappresentati anche i nodi e gli archi dell'underlying graph.
-Ogni volta che si chiederà questa operazione il sistema risponderà eliminando la visualizzazione e inizializzandone una nuova con un encode diverso degli stessi dati rappresentati in precedenza. Questa visualizzazione inizializzata sarà un svg detto \#\_ctree che possiederà grandezza uguale a quella dell' \#cgraph ma senza una divisione degli elementi che andranno a comporre la rappresentazione poichè non necessari.\\
-Al contrario che nella graph view, questa risulta comunque essere un modello node-link ma in cui non si avrà necessità di inserire forze per una rappresentazione ottimale in quanto sarà una semplice rappresentazione "layered" con l'aggiunta di archi che collegano le foglie tra loro come mostrato nella \figurename~\ref{fig:treeView} che contiene lo stesso grafo visualizzato in precedenza nella graph-view e visualizzato nella figura \figurename~\ref{fig:graphView}.
-Come si nota inoltre il raggio dei cluster e dei nodi risulta essere la stessa anche se ciò che caratterizza una foglia, che sia essa un cluster vuoto oppure un nodo all'interno di un cluster, è che questa sarà di un colore diverso rispetto ai nodi interni.
-Essendo un sistema in cui non vi è una soglia massima del numero di nodi è di cluster definibili o importabili si possono presentare situazioni limite. Per questo sono state implementate due diverse tipologie di tree-view, entrambe discendenti: ad albero verticale ed orizzontale.
-All'utente è lasciata la scelta di quale delle due utilizzare anche se è consigliabile ai fini di una buona visualizzazione l'utilizzo di una rappresentazione verticale nel caso in cui si hanno tanti cluster sullo stesso livello ma la profondità dell'albero è relativamente bassa mentre è sicuramente preferibile utilizzare una visualizzazione orizzonante con la radice centrale a sinistra dell'svg nel caso in cui si hanno pochi cluster per ogni livello ma una profondità maggiore da gestire.
-\begin{figure}[!htb]
-	\begin{center}
-		\includegraphics[width=1 \linewidth]{figure/treeView}
-	\end{center}
-	\caption{tree View\label{fig:treeView}}
-\end{figure}
-\section{Console-view}
-Oltre all'operazione di encode viste si ha la necessità di dover mostrare, sotto richiesta dell'utente, dei log riguardanti i cambiamenti eseguiti durante una stessa sessione di lavoro. Per questo è stata introdotta una terza vista definita \textit{console-view} che risolve questa problematica.
-Mediante una interazione similare a quelle viste in precedenza, l'utente può accedere a questa visualizzazione. Il sistema risponderà eliminando il precedente svg che sia esso \#cgraph oppure \#ctree e creerà un nuovo svg di dimensioni similari alle altre due ed in cui saranno inseriti i messaggi delle ultime $n$ operazioni eseguite. Ogni operazione infatti nel momento in cui viene richiesta dall'utente nel mentre viene eseguita salva un valore di tipo String all'interno di un oggetto Map<number,String> \textit{logs} inzializzato al log-in iniziale dell'utente.
-La vista sarà similare a quella mostrata nella \figurename~\ref{fig:consoleView}, nella quale oltre al messaggio che ricorda l'operazione eseguita e richiesta, sarà visualizzato l'orario in cui l'utente ha interagito con il sistema. Terminate le viste e delucidato il lettore sulle operazioni di encode eseguibili si passa adesso a definire con più chiarezza le operazioni di filtraggio
-\begin{figure}[!htb]
-	\begin{center}
-		\includegraphics[width=1 \linewidth]{figure/consoleView}
-	\end{center}
-	\caption{Graph View\label{fig:consoleView}}
-\end{figure}
-
-\section{Filtraggio degli oggetti}
-Come definito nel capitolo precedente una operazione di filtraggio permette di mostrare un sottoinsieme di dati secondo certe regole, ovvero ciò che può esser definito come uno zoom semantico. Si immagini un grafo clusterizzato di dimensioni notevoli o comunque con una delle classi di oggetti che lo compongono che in un momento particolare abbia una maggiore importanza rispetto agli altri. Volendo lavorare solamente su un particolare oggetto è possibile stando nella \textit{graph-view} eseguire una operazione di filtraggio su una delle tre componenti come mostrato nella figura \figurename~\ref{fig:clustersOnly} che fa riferimento  alla \figurename~\ref{fig:graphView} in cui però l'utente ha necessità di vedere solamente la disposizione dei cluster nel dettaglio.
-\begin{figure}[!htb]
-	\begin{center}
-		\includegraphics[width=1 \linewidth]{figure/clustersOnly}
-	\end{center}
-	\caption{visualizzazione dei soli cluster\label{fig:clustersOnly}}
-\end{figure}
-Essendo un grafo clusterizzato un grafo planare, per quanto riguarda gli archi si ha la necessità che essi non intersechino nulla ad di fuori del loro nodo \textit{source} e del nodo \textit{target}. In un grafo di grandi dimensioni o comunque con un numero relativamente alto di archi sarebbe di difficile analisi questa esigenza. Per questo facendo riferimento alla \figurename~\ref{fig:graphView} l'utente può avere accesso ad una visualizzazione filtrata sugli archi come mostrato in figura \figurename~\ref{fig:edgesOnly}. Partendo dalla visualizzazione \textit{graph-view} che come detto dona all'utente un grado di integrazione massimo, filtrando una particolare classe tra le sue componenti si avrà un maggiore dettaglio per quell'oggetto, ma si perderanno due gradi di integrazione passando dalla possibilità di interazione che permette la trasformazione della visualizzazione e dei dati a una integrazione di grado $0$ che consentirà solo l'analisi esattamente come visto per l'operazione di encode che porta alla \textit{tree-view}, anche se è sempre possibile tornare alla rappresentazione di default per poter continuare la sessione di lavoro.  
-\begin{figure}[!htb]
-	\begin{center}
-		\includegraphics[width=1 \linewidth]{figure/edgesOnly}
-	\end{center}
-	\caption{Visualizzazione dei soli archi\label{fig:edgesOnly}}
-\end{figure}
+Per quanto concerne invece la complessità computazionale, il metodo non garantisce il numero di iterazione minimo per poter raggiungere una configurazione di equilibrio ed ogni passo iterativo ha complessità quadratica per i nodi e lineare per tutte le iterazioni avendo quindi un costo complessivo finale $O(n^3)$ senza lasciare però nessuna garanzia sul layout del grafo rappresentato.
 
 }

@@ -2,56 +2,55 @@
 \babel@toc {italian}{}
 \contentsline {chapter}{Indice}{iii}% 
 \contentsline {chapter}{Elenco delle figure}{vi}% 
-\contentsline {chapter}{Elenco delle tabelle}{ix}% 
-\contentsline {chapter}{Introduzione}{x}% 
-\contentsline {section}{Ringraziamenti}{x}% 
+\contentsline {chapter}{Introduzione}{ix}% 
+\contentsline {section}{Ringraziamenti}{ix}% 
 \contentsline {section}{Premessa}{xi}% 
-\contentsline {chapter}{\chapternumberline {1}Stato dell'arte}{1}% 
-\contentsline {section}{\numberline {1.1}Definizioni preliminari}{1}% 
-\contentsline {subsection}{\numberline {1.1.1}Grafi}{1}% 
-\contentsline {subsection}{\numberline {1.1.2}Alberi}{4}% 
-\contentsline {section}{\numberline {1.2}C-Graph}{6}% 
-\contentsline {subsection}{\numberline {1.2.1}clustered planarity}{7}% 
-\contentsline {subsection}{\numberline {1.2.2}flat clustered planarity}{9}% 
-\contentsline {chapter}{\chapternumberline {2}Strumenti e metodologie}{11}% 
-\contentsline {section}{\numberline {2.1}Visualizzazione delle informazioni}{11}% 
-\contentsline {subsection}{\numberline {2.1.1}rappresentazione inclusion-Tree}{12}% 
-\contentsline {subsection}{\numberline {2.1.2}rappresentazione underlying Graph}{14}% 
-\contentsline {section}{\numberline {2.2}Linguaggi e librerie}{16}% 
-\contentsline {subsection}{\numberline {2.2.1}Javascript}{16}% 
-\contentsline {subsection}{\numberline {2.2.2}D3.js}{17}% 
-\contentsline {section}{\numberline {2.3}Oggetti per la struttura dati}{18}% 
-\contentsline {chapter}{\chapternumberline {3}Editor e primitive di interazione}{20}% 
-\contentsline {section}{\numberline {3.1}definizioni dell'interazione}{20}% 
-\contentsline {section}{\numberline {3.2}classificazione}{22}% 
-\contentsline {section}{\numberline {3.3}modalit\IeC {\`a} di interazione scelte e motivazioni}{24}% 
-\contentsline {chapter}{\chapternumberline {4}Analisi degli obiettivi e scelte progettuali}{30}% 
-\contentsline {section}{\numberline {4.1}Principi per la visualizzazione}{30}% 
-\contentsline {section}{\numberline {4.2}Obiettivi}{32}% 
-\contentsline {section}{\numberline {4.3}Analisi dei requisiti e scelte progettuali}{33}% 
-\contentsline {chapter}{\chapternumberline {5}Interfacce e struttura dati}{37}% 
-\contentsline {section}{\numberline {5.1}Struttura dati}{37}% 
-\contentsline {section}{\numberline {5.2}Log-in ed inizializzazione}{41}% 
-\contentsline {section}{\numberline {5.3}Graph-view}{44}% 
-\contentsline {section}{\numberline {5.4}Tree-view}{45}% 
-\contentsline {section}{\numberline {5.5}Console-view}{46}% 
-\contentsline {section}{\numberline {5.6}Filtraggio degli oggetti}{48}% 
-\contentsline {chapter}{\chapternumberline {6}Funzionalit\IeC {\`a} utente}{51}% 
-\contentsline {section}{\numberline {6.1}disegno dei dati}{52}% 
-\contentsline {section}{\numberline {6.2}creazione}{53}% 
-\contentsline {subsection}{\numberline {6.2.1}import/export}{53}% 
-\contentsline {subsection}{\numberline {6.2.2}template}{56}% 
-\contentsline {subsection}{\numberline {6.2.3}elemento del grafo}{56}% 
-\contentsline {section}{\numberline {6.3}modifica}{59}% 
-\contentsline {subsection}{\numberline {6.3.1}Spostamento e cancellazione}{59}% 
-\contentsline {subsection}{\numberline {6.3.2}raggio e colore degli oggetti}{60}% 
-\contentsline {subsection}{\numberline {6.3.3}aggiungere descrizione agli oggetti}{62}% 
-\contentsline {section}{\numberline {6.4}navigazione}{64}% 
-\contentsline {chapter}{\chapternumberline {7}Riduzione Flat del grafo clusterizzato}{67}% 
-\contentsline {section}{\numberline {7.1}metodo}{67}% 
-\contentsline {section}{\numberline {7.2}algoritmo}{71}% 
-\contentsline {chapter}{\chapternumberline {8}Esempi reali di utilizzo}{76}% 
-\contentsline {section}{\numberline {8.1}Creazione e modifica}{76}% 
-\contentsline {section}{\numberline {8.2}Riduzione e ripresa del grafo}{80}% 
-\contentsline {chapter}{Conclusioni e sviluppi futuri}{82}% 
-\contentsline {chapter}{Bibliografia}{85}% 
+\contentsline {chapter}{\chapternumberline {1}Definizioni Preliminari}{1}% 
+\contentsline {section}{\numberline {1.1}Visualizzazione delle informazioni}{1}% 
+\contentsline {section}{\numberline {1.2}Interazione}{3}% 
+\contentsline {section}{\numberline {1.3}Grafi}{7}% 
+\contentsline {section}{\numberline {1.4}Alberi}{8}% 
+\contentsline {chapter}{\chapternumberline {2}Stato dell'arte}{11}% 
+\contentsline {section}{\numberline {2.1}Visualizzazione alberi}{11}% 
+\contentsline {section}{\numberline {2.2}Visualizzazione grafi}{13}% 
+\contentsline {section}{\numberline {2.3}Primitive di interazione per visualizzazioni di grafi}{16}% 
+\contentsline {section}{\numberline {2.4}Editors per grafi}{21}% 
+\contentsline {chapter}{\chapternumberline {3}Grafi Clusterizzati}{24}% 
+\contentsline {section}{\numberline {3.1}Planarit\IeC {\`a}}{24}% 
+\contentsline {section}{\numberline {3.2}C-graph}{26}% 
+\contentsline {section}{\numberline {3.3}clustered planarity}{27}% 
+\contentsline {chapter}{\chapternumberline {4}Analisi degli obiettivi}{29}% 
+\contentsline {chapter}{\chapternumberline {5}Primitive atomiche di integrazione}{33}% 
+\contentsline {section}{\numberline {5.1}creazione di un oggetto}{33}% 
+\contentsline {section}{\numberline {5.2}Rimozione di un oggetto}{36}% 
+\contentsline {section}{\numberline {5.3}modifica di un oggetto o dell'intero grafo}{37}% 
+\contentsline {subsection}{\numberline {5.3.1}Encode}{38}% 
+\contentsline {subsection}{\numberline {5.3.2}Riconfigurazione}{39}% 
+\contentsline {subsection}{\numberline {5.3.3}traslazione}{40}% 
+\contentsline {chapter}{\chapternumberline {6}Operazioni di semplificazione per grafi clusterizzati}{42}% 
+\contentsline {section}{\numberline {6.1}Riduzione polinomiale}{42}% 
+\contentsline {section}{\numberline {6.2}Flat clustered-planarity}{43}% 
+\contentsline {section}{\numberline {6.3}Pipe clustered planarity}{48}% 
+\contentsline {chapter}{\chapternumberline {7}Editor: interfacce e strutture dati}{51}% 
+\contentsline {section}{\numberline {7.1}Strumenti e struttura dati}{51}% 
+\contentsline {subsection}{\numberline {7.1.1}Javascript}{52}% 
+\contentsline {subsection}{\numberline {7.1.2}D3.js}{53}% 
+\contentsline {subsection}{\numberline {7.1.3}Oggetti di dominio}{55}% 
+\contentsline {subsection}{\numberline {7.1.4}Struttura dati}{57}% 
+\contentsline {section}{\numberline {7.2}Log-in ed interfacce}{62}% 
+\contentsline {subsection}{\numberline {7.2.1}Inizializzazione}{62}% 
+\contentsline {subsection}{\numberline {7.2.2}Graph-view}{65}% 
+\contentsline {subsection}{\numberline {7.2.3}Tree-view}{66}% 
+\contentsline {subsection}{\numberline {7.2.4}Console-view}{67}% 
+\contentsline {subsection}{\numberline {7.2.5}Filtraggio degli oggetti}{69}% 
+\contentsline {chapter}{\chapternumberline {8}Editor: interazioni e semplificazioni}{71}% 
+\contentsline {section}{\numberline {8.1}disegno dei dati}{72}% 
+\contentsline {section}{\numberline {8.2}creazione}{74}% 
+\contentsline {section}{\numberline {8.3}modifica}{78}% 
+\contentsline {section}{\numberline {8.4}navigazione}{83}% 
+\contentsline {section}{\numberline {8.5}Semplificazione}{85}% 
+\contentsline {chapter}{\chapternumberline {9}Esempio reale di utilizzo}{89}% 
+\contentsline {section}{\numberline {9.1}Creazione e modifica}{89}% 
+\contentsline {section}{\numberline {9.2}Riduzione e ripresa del grafo}{93}% 
+\contentsline {chapter}{Conclusioni e sviluppi futuri}{95}% 
+\contentsline {chapter}{Bibliografia}{98}% 

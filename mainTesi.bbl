@@ -1,4 +1,61 @@
-\begin{thebibliography}{Fow02}
+\begin{thebibliography}{DBDM02}
+
+\bibitem[ADL16]{10.1093/comjnl/bxw035}
+P.~Angelini and G.~Da~Lozzo.
+\newblock {SEFE = C-Planarity?}
+\newblock {\em The Computer Journal}, 59(12):1831--1838, 12 2016.
+
+\bibitem[AFP10]{10.1007/978-3-642-11805-0_8}
+Patrizio Angelini, Fabrizio Frati, and Maurizio Patrignani.
+\newblock Splitting clusters to get c-planarity.
+\newblock In David Eppstein and Emden~R. Gansner, editors, {\em Graph Drawing},
+  pages 57--68, Berlin, Heidelberg, 2010. Springer Berlin Heidelberg.
+
+\bibitem[AL16]{angelini_et_al:LIPIcs:2016:6781}
+Patrizio Angelini and Giordano~Da Lozzo.
+\newblock {Clustered Planarity with Pipes}.
+\newblock In Seok-Hee Hong, editor, {\em 27th International Symposium on
+  Algorithms and Computation (ISAAC 2016)}, volume~64 of {\em Leibniz
+  International Proceedings in Informatics (LIPIcs)}, pages 13:1--13:13,
+  Dagstuhl, Germany, 2016. Schloss Dagstuhl--Leibniz-Zentrum fuer Informatik.
+
+\bibitem[BETT98]{Battista:1998:GDA:551884}
+Giuseppe~Di Battista, Peter Eades, Roberto Tamassia, and Ioannis~G. Tollis.
+\newblock {\em Graph Drawing: Algorithms for the Visualization of Graphs}.
+\newblock Prentice Hall PTR, Upper Saddle River, NJ, USA, 1st edition, 1998.
+
+\bibitem[CP18]{DBLP:journals/corr/abs-1808-07437}
+Pier~Francesco Cortese and Maurizio Patrignani.
+\newblock Clustered planarity = flat clustered planarity.
+\newblock {\em CoRR}, abs/1808.07437, 2018.
+
+\bibitem[CW06]{zbMATH05208230}
+Sabine {Cornelsen} and Dorothea {Wagner}.
+\newblock {Completely connected clustered graphs.}
+\newblock {\em {J. Discrete Algorithms}}, 4(2):313--323, 2006.
+
+\bibitem[DBDM02]{10.1007/3-540-45848-4_5}
+Giuseppe Di~Battista, Walter Didimo, and A.~Marcandalli.
+\newblock Planarization of clustered graphs.
+\newblock In Petra Mutzel, Michael J{\"u}nger, and Sebastian Leipert, editors,
+  {\em Graph Drawing}, pages 60--74, Berlin, Heidelberg, 2002. Springer Berlin
+  Heidelberg.
+
+\bibitem[eMP18]{pipe2018}
+Pier Francesco~Cortese e~Maurizio~Patrignani.
+\newblock Clustered planarity = pipe clustered planarity.
+\newblock 2018.
+
+\bibitem[FCE95]{feng1995planarity}
+Qing-Wen Feng, Robert~F Cohen, and Peter Eades.
+\newblock Planarity for clustered graphs.
+\newblock In {\em European Symposium on Algorithms}, pages 213--226. Springer,
+  1995.
+
+\bibitem[Fen97]{feng1997algorithms}
+Qingwen Feng.
+\newblock {\em Algorithms for drawing clustered graphs}.
+\newblock Citeseer, 1997.
 
 \bibitem[Fow02]{UML:10}
 Martin Fowler.
@@ -16,5 +73,17 @@ Rober~C. Martin.
 \newblock {\em Agile Software Development: Principles, Patterns, and
   Practices}.
 \newblock Pearson; 1st edition, 2002.
+
+\bibitem[SM91]{108304}
+K.~{Sugiyama} and K.~{Misue}.
+\newblock Visualization of structural information: automatic drawing of
+  compound digraphs.
+\newblock {\em IEEE Transactions on Systems, Man, and Cybernetics},
+  21(4):876--892, 1991.
+
+\bibitem[SM95]{SUGIYAMA1995217}
+Kozo Sugiyama and Kazuo Misue.
+\newblock Graph drawing by the magnetic spring model.
+\newblock 6(3):217 -- 231, 1995.
 
 \end{thebibliography}

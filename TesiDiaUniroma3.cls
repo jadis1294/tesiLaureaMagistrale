@@ -67,11 +67,10 @@
       \vspace{10mm}
       {\includegraphics[width=0.4 \linewidth]{figure/uniroma3-logo}} \\
       \vspace{10mm}
-      {\Large UNIVERSIT\`A DEGLI STUDI ROMA TRE \\
-       Sezione di Informatica e Automazione}\\
+      {\Large UNIVERSIT\`A DEGLI STUDI ROMA TRE \\}
       \vspace{10mm}
       {\LARGE Dipartimento di Ingegneria} \\
-      {\Large Corso di Laurea Magistrale in Ingegneria Informatica} \\
+      {\Large Corso di Laurea Magistrale in Ingegneria Informatica (LM-32)} \\
       \vspace{10mm}
       {\LARGE Tesi Di Laurea} \\
       \vspace{10mm}
